@@ -19,10 +19,10 @@ Route::get('/portal/unauthorized', function () {
 });
 
 //Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/portal', 'PortalController@index');
 
 Route::group(['middleware' => 'App\Http\Middleware\AdminMiddleware'], function(){
 	//Route::match(['get', 'post'], '/adminOnlyPage/', 'HomeController@admin');
-	Route::get('/portal', 'PortalController@index');
 	Route::get('/portal/users', 'UserController@index');
 	Route::get('/portal/myprofile', 'UserController@myprofile');
 	Route::get('/portal/users/create', 'UserController@create');
@@ -51,7 +51,6 @@ Route::group(['middleware' => 'App\Http\Middleware\AdminMiddleware'], function()
 
 Route::group(['middleware' => 'App\Http\Middleware\UserMiddleware'], function(){
 	//Route::match(['get', 'post'], '/adminOnlyPage/', 'HomeController@admin');
-	Route::get('/portal', 'PortalController@index');
 	Route::get('/portal/myprofile', 'UserController@myprofile');
 
 	Route::get('/portal/engineering', 'EngineeringController@index');

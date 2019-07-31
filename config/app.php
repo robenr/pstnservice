@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'PSTNServices'),
 
     /*
     |--------------------------------------------------------------------------
@@ -119,7 +119,7 @@ return [
     |
     */
 
-    'key' => env('APP_KEY'),
+    'key' => env('APP_KEY', "Ah5c4CxN94/wVPusWW81FhtFZRVs8OBfXgjbCvJgO8E="),
 
     'cipher' => 'AES-256-CBC',
 
