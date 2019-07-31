@@ -1,0 +1,32 @@
+
+
+/* === Import functions and variables === */
+
+@import "website/bootstrap/scss/functions";
+@import "website/bootstrap/scss/variables";
+
+/* === Boostrap Main SCSS === */
+
+@import 'website/bootstrap/scss/bootstrap';
+/*-------------------------------------------------------------------*/
+
+/* === Owl carousel === */
+@import 'owlcarousel/core';
+@import 'owlcarousel/animate';
+@import 'owlcarousel/autoheight';
+@import 'owlcarousel/lazyload';
+@import "owlcarousel/theme.default";
+@import "owlcarousel/theme.green";
+/*-------------------------------------------------------------------*/
+
+/* === Animate Styles === */
+
+@import "animate/animate";
+/*-------------------------------------------------------------------*/
+
+/* === Core Styles === */
+
+@import "website/fonts";
+@import "website/open-iconic-bootstrap";
+@import "website/custom";
+/*-------------------------------------------------------------------*/
