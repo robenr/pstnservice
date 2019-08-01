@@ -21,6 +21,7 @@
                         <tr>
                             <th> Title </th>
                             <th> Publish date </th>
+                            <th></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -28,6 +29,7 @@
                         <tr>
                             <td> <a href="{{ url('portal/blog/edit/'.$blog['id']) }}">{{ $blog['blog_title'] }}</a> </td>
                             <td> {{ date('d-m-Y', strtotime($blog['created_at'])) }} </td>
+                            <td><a href="{{ url('portal/blog/delete/'.$blog['id']) }}" onclick="return confirm('Do you want to delete?')"><i class="mdi mdi-delete"></i></a></td>
                         </tr>
                         @endforeach
                     </tbody>

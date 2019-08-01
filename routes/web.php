@@ -17,9 +17,11 @@ Route::get('/logout', 'PortalController@logout');
 Route::get('/portal/unauthorized', function () {
     return view('401');
 });
-
-//Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/portal', 'PortalController@index');
+
+Route::get('/portal/ticket', 'TicketController@index');
+Route::get('/portal/ticket/create', 'TicketController@create');
+Route::post('/portal/ticket/create', 'TicketController@store');
 
 Route::group(['middleware' => 'App\Http\Middleware\AdminMiddleware'], function(){
 	//Route::match(['get', 'post'], '/adminOnlyPage/', 'HomeController@admin');
@@ -47,6 +49,7 @@ Route::group(['middleware' => 'App\Http\Middleware\AdminMiddleware'], function()
 	Route::post('/portal/blog/create', 'BlogController@store');
 	Route::get('/portal/blog/edit/{blog}', 'BlogController@show');
 	Route::post('/portal/blog/edit/{blog}', 'BlogController@update');
+	Route::get('/portal/blog/delete/{blog}', 'BlogController@destroy');
 });
 
 Route::group(['middleware' => 'App\Http\Middleware\UserMiddleware'], function(){
@@ -60,10 +63,6 @@ Route::group(['middleware' => 'App\Http\Middleware\UserMiddleware'], function(){
 	Route::get('/portal/billing', 'BillingController@index');
 	Route::post('/portal/billing', 'BillingController@store');
 	Route::get('/portal/billing/download/{name}', 'BillingController@download');
-
-	Route::get('/portal/ticket', 'TicketController@index');
-	Route::get('/portal/ticket/create', 'TicketController@create');
-	Route::post('/portal/ticket/create', 'TicketController@store');
 });
 
 Route::get('/', 'HomeController@index')->name('home');

@@ -33,12 +33,6 @@
                 <span class="menu-title">Billing</span>
             </a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" href="{{url('portal/ticket')}}">
-                <i class="menu-icon typcn typcn-th-large-outline"></i>
-                <span class="menu-title">Support Ticket</span>
-            </a>
-        </li>
         @endIf
 
         @if(Auth::user()->user_type == 'A')
@@ -67,6 +61,13 @@
             </a>
         </li>
         @endIf
+        
+        <li class="nav-item">
+            <a class="nav-link" href="{{url('portal/ticket')}}">
+                <i class="menu-icon typcn typcn-th-large-outline"></i>
+                <span class="menu-title">Support Ticket</span>
+            </a>
+        </li>
 
     </ul>
 </nav>

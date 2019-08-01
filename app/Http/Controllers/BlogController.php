@@ -56,6 +56,12 @@ class BlogController extends Controller
         return view('blog.edit', ['blog' => $blog]);
     }
 
+    public function destroy(Blog $blog)
+    {
+        $blog->delete();
+        return redirect('portal/blog');
+    }
+
     public function home()
     {
         return view('website.blog', ['blogs' => Blog::orderBy('updated_at', 'desc')->paginate(9)]);

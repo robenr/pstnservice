@@ -72,7 +72,7 @@
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">File</label>
                                 <div class="col-sm-9">
-                                    <input type="file" name="file" class="file-upload-browse btn btn-primary">
+                                    <input type="file" name="file" class="form-control">
                                 </div>
                             </div>
                         </div>
