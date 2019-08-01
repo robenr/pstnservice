@@ -43,4 +43,10 @@ class UserController extends Controller
         $user = User::create($request->all());
         return redirect('portal/users');
     }
+
+    public function destroy(User $user)
+    {
+        $user->delete();
+        return redirect('portal/users');
+    }
 }

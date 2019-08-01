@@ -29,6 +29,7 @@ Route::group(['middleware' => 'App\Http\Middleware\AdminMiddleware'], function()
 	Route::get('/portal/myprofile', 'UserController@myprofile');
 	Route::get('/portal/users/create', 'UserController@create');
 	Route::post('/portal/users/create', 'UserController@store');
+	Route::get('/portal/users/delete/{user}', 'UserController@destroy');
 
 	Route::get('/portal/engineering', 'EngineeringController@index');
 	Route::get('/portal/engineering/all', 'EngineeringController@all');

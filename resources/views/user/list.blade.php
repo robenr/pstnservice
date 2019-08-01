@@ -39,9 +39,7 @@
                             <td>
                                 <label class="badge {{ $user['user_type'] == 'A' ? 'badge-danger' : 'badge-info' }}">{{ $user['user_type'] == 'A' ? 'Admin' : 'User' }}</label>
                             </td>
-                            <td>
-                                <a href=""><i class="fa fa-trash-o"></i></a>
-                            </td>
+                            <td><a href="{{ url('portal/users/delete/'.$user['id']) }}" onclick="return confirm('Do you want to delete?')"><i class="mdi mdi-delete"></i></a></td>
                         </tr>
                         @endforeach
                     </tbody>
