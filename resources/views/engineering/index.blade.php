@@ -42,7 +42,7 @@
         <div class="card">
             <div class="card-body">
                 <h4 class="card-title">Engineering file upload</h4>
-                <form class="form-sample" method="post" action="{{ url('portal/engineering') }}" enctype="multipart/form-data">
+                <form class="form-sample" method="post" action="" enctype="multipart/form-data">
                     @csrf
                     <div class="row">
                         <div class="col-md-12">

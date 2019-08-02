@@ -58,7 +58,6 @@ class EngineeringController extends Controller
      */
     public function store(StoreEngineeringRequest $request)
     {
-        //$path = $request->name->store('engineering');
         $filePath = Storage::putFile('engineering', $request->file('file'));
         $store = array_merge($request->all(), ['mimetype' => $request->file('file')->getMimeType()]);
         $store = array_merge($store, ['filename' => $filePath]);

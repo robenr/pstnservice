@@ -60,11 +60,9 @@ Route::group(['middleware' => 'App\Http\Middleware\UserMiddleware'], function(){
 
 	Route::get('/portal/engineering', 'EngineeringController@index');
 	Route::post('/portal/engineering', 'EngineeringController@store');
-	//Route::get('/portal/engineering/download/{name}', 'EngineeringController@download');
 	
 	Route::get('/portal/billing', 'BillingController@index');
 	Route::post('/portal/billing', 'BillingController@store');
-	//Route::get('/portal/billing/download/{name}', 'BillingController@download');
 });
 
 Route::get('/', 'HomeController@index')->name('home');
