@@ -27,8 +27,8 @@
                     <tbody>
                         @foreach($tickets as $key => $ticket)
                         <tr>
-                            <td class="py-1">{{ $ticket['idShort'] }}</td>
-                            <td><a href="{{ $ticket['url'] }}" target="_blank">{{ $ticket['name'] }}</a></td>
+                            <td class="py-1">{{ $ticket['id'] }}</td>
+                            <td><a href="{{ $ticket['trello_url'] }}" target="_blank">{{ $ticket['name'] }}</a></td>
                         </tr>
                         @endforeach
                     </tbody>

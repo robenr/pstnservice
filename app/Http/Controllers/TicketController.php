@@ -4,17 +4,13 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use GuzzleHttp\Client;
+use App\Ticket;
 
 class TicketController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
+    public function index(Request $request)
     {
-        $client = new Client(['base_uri' => 'https://api.trello.com/1/']);
+        /*$client = new Client(['base_uri' => 'https://api.trello.com/1/']);
         $urls = "boards/CZyBrFfl/cards/?";
         $urls .= "limit=10";
         $urls .= "&fields=all";
@@ -25,28 +21,25 @@ class TicketController extends Controller
         $response = $client->request('GET', $urls);
         $body = $response->getBody();
         $content =$body->getContents();
-        $tickets = json_decode($content,TRUE);
+        $tickets = json_decode($content,TRUE);*/
+
+        if($request->user()->user_type == 'U') {
+            $tickets = Ticket::where([
+                                        ['created_by', '=', $request->user()->id]
+                                    ])->get();
+        } else {
+            $tickets = Ticket::all();
+        }
 
         //dd($tickets);exit;
         return view('ticket.index', ['tickets' => $tickets]);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function create()
     {
         return view('ticket.create', []);
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
     public function store(Request $request)
     {
         $card = \Trello::manager()->getCard();
@@ -57,49 +50,27 @@ class TicketController extends Controller
             ->setDescription($request->description)
             ->save();
 
+        $data = array( "created_by" => $request->user()->id, "trello_id" => $card->getId() );
+        $ticket = Ticket::create($data);
+
         return redirect('portal/ticket');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function show($id)
     {
         //
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function edit($id)
     {
         //
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function update(Request $request, $id)
     {
         //
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function destroy($id)
     {
         //

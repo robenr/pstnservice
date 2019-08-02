@@ -3,8 +3,7 @@
         <li class="nav-item nav-profile">
             <a href="#" class="nav-link">
                 <div class="profile-image">
-                    <img class="img-xs rounded-circle" src="/images/faces/face28.jpg" alt="profile image">
-                    <div class="dot-indicator bg-success"></div>
+                    <img class="img-xs rounded-circle" src="/images/avatars/user-06.png" alt="profile image">
                 </div>
                 <div class="text-wrapper">
                     <p class="profile-name">{{ Auth::user()->name }}</p>
