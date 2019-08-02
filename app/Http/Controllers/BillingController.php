@@ -92,7 +92,11 @@ class BillingController extends Controller
         $store = array_merge($store, ['location' => 'billing']);
         $store = array_merge($store, ['uploaded_by' => $request->user()->id]);
         $product = FileManager::create($store);
-        return redirect('portal/billing');
+        if($request->user()->user_type == 'U') {
+            return redirect('portal/billing');
+        } else {
+            return redirect('portal/billing/all');
+        }
     }
 
     /**

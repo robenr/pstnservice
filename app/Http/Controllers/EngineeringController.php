@@ -65,7 +65,11 @@ class EngineeringController extends Controller
         $store = array_merge($store, ['location' => 'engineering']);
         $store = array_merge($store, ['uploaded_by' => $request->user()->id]);
         $product = FileManager::create($store);
-        return redirect('portal/engineering');
+        if($request->user()->user_type == 'U') {
+            return redirect('portal/engineering');
+        } else {
+            return redirect('portal/engineering/all');
+        }
     }
 
     /**
