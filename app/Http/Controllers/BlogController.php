@@ -38,7 +38,7 @@ class BlogController extends Controller
         return redirect('portal/blog');
     }
 
-    public function update(Request $request, Blog $blog)
+    public function update(StoreBlogRequest $request, Blog $blog)
     {
         $this->middleware('auth');
         $store = $request->all();
