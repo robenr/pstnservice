@@ -28,7 +28,8 @@
                         @foreach($tickets as $key => $ticket)
                         <tr>
                             <td class="py-1">{{ $ticket['id'] }}</td>
-                            <td><a href="{{ $ticket['trello_url'] }}" target="_blank">{{ $ticket['name'] }}</a></td>
+                            @if(Auth::user()->user_type == 'A')<td><a href="{{ $ticket['trello_url'] }}" target="_blank">{{ $ticket['name'] }}</a></td>@endIf
+                            @if(Auth::user()->user_type == 'U')<td><a href="{{ url('portal/ticket/edit/'.$ticket['id']) }}" target="_blank">{{ $ticket['name'] }}</a></td>@endIf
                         </tr>
                         @endforeach
                     </tbody>

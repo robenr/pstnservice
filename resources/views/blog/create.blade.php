@@ -18,7 +18,12 @@
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Title</label>
                                 <div class="col-sm-9">
-                                    <input type="text" name="blog_title" class="form-control" />
+                                    <input type="text" name="blog_title" class="form-control @error('title') is-invalid @enderror" value="{{ old('blog_title') }}" />
+                                    @error('blog_title')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                    @enderror
                                 </div>
                             </div>
                         </div>
@@ -28,7 +33,12 @@
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Description</label>
                                 <div class="col-sm-9">
-                                    <textarea name="blog_content" class="wysiwyg"></textarea>
+                                    <textarea name="blog_content" class="wysiwyg">{{ old('blog_content') }}</textarea>
+                                    @error('blog_content')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                    @enderror
                                 </div>
                             </div>
                         </div>
@@ -38,7 +48,12 @@
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Featured image</label>
                                 <div class="col-sm-9">
-                                    <input type="file" name="file" class="form-control">
+                                    <input type="file" name="file" class="form-control @error('title') is-invalid @enderror">
+                                    @error('file')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                    @enderror
                                 </div>
                             </div>
                         </div>

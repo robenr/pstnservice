@@ -4,8 +4,10 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use GuzzleHttp\Client;
 use Illuminate\Support\Facades\Storage;
+use Illuminate\Support\Facades\Validator;
+use App\Http\Requests\StoreBillingRequest;
+use GuzzleHttp\Client;
 use App\FileManager;
 
 class BillingController extends Controller
@@ -82,7 +84,7 @@ class BillingController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(StoreBillingRequest $request)
     {
         $filePath = Storage::putFile('billing', $request->file('file'));
         $store = array_merge($request->all(), ['mimetype' => $request->file('file')->getMimeType()]);

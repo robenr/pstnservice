@@ -22,7 +22,12 @@
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Full Name</label>
                                 <div class="col-sm-9">
-                                    <input type="text" class="form-control" name="name" tabindex="1" />
+                                    <input type="text" class="form-control @error('name') is-invalid @enderror" name="name" tabindex="1" />
+                                    @error('name')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                    @enderror
                                 </div>
                             </div>
                         </div>
@@ -30,7 +35,12 @@
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Password</label>
                                 <div class="col-sm-9">
-                                    <input type="text" class="form-control" name="password" tabindex="3" />
+                                    <input type="password" class="form-control @error('password') is-invalid @enderror" name="password" tabindex="3" />
+                                    @error('password')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                    @enderror
                                 </div>
                             </div>
                         </div>
@@ -40,7 +50,12 @@
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Email</label>
                                 <div class="col-sm-9">
-                                    <input type="text" class="form-control" name="email" tabindex="2" />
+                                    <input type="text" class="form-control @error('email') is-invalid @enderror" name="email" tabindex="2" />
+                                    @error('email')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                    @enderror
                                 </div>
                             </div>
                         </div>
@@ -48,7 +63,7 @@
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Confirm Password</label>
                                 <div class="col-sm-9">
-                                    <input type="text" class="form-control" name="confirm_password" tabindex="4" />
+                                    <input type="password" class="form-control @error('password') is-invalid @enderror" name="password_confirmation" tabindex="4" />
                                 </div>
                             </div>
                         </div>

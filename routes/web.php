@@ -22,6 +22,8 @@ Route::get('/portal', 'PortalController@index');
 Route::get('/portal/ticket', 'TicketController@index');
 Route::get('/portal/ticket/create', 'TicketController@create');
 Route::post('/portal/ticket/create', 'TicketController@store');
+Route::get('/portal/ticket/edit/{ticket}', 'TicketController@show');
+Route::post('/portal/ticket/edit/{ticket}', 'TicketController@edit');
 
 Route::group(['middleware' => 'App\Http\Middleware\AdminMiddleware'], function(){
 	//Route::match(['get', 'post'], '/adminOnlyPage/', 'HomeController@admin');
@@ -34,16 +36,14 @@ Route::group(['middleware' => 'App\Http\Middleware\AdminMiddleware'], function()
 	Route::get('/portal/engineering', 'EngineeringController@index');
 	Route::get('/portal/engineering/all', 'EngineeringController@all');
 	Route::post('/portal/engineering', 'EngineeringController@store');
+	Route::post('/portal/engineering/all', 'EngineeringController@store');
 	Route::get('/portal/engineering/download/{name}', 'EngineeringController@download');
 	
 	Route::get('/portal/billing', 'BillingController@index');
 	Route::get('/portal/billing/all', 'BillingController@all');
 	Route::post('/portal/billing', 'BillingController@store');
+	Route::post('/portal/billing/all', 'BillingController@store');
 	Route::get('/portal/billing/download/{name}', 'BillingController@download');
-
-	Route::get('/portal/ticket', 'TicketController@index');
-	Route::get('/portal/ticket/create', 'TicketController@create');
-	Route::post('/portal/ticket/create', 'TicketController@store');
 
 	Route::get('/portal/blog', 'BlogController@index');
 	Route::get('/portal/blog/create', 'BlogController@create');

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\Storage;
+use App\Http\Requests\StoreEngineeringRequest;
 use App\FileManager;
 
 class EngineeringController extends Controller
@@ -55,7 +56,7 @@ class EngineeringController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(StoreEngineeringRequest $request)
     {
         //$path = $request->name->store('engineering');
         $filePath = Storage::putFile('engineering', $request->file('file'));

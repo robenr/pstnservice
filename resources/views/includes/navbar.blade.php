@@ -4,9 +4,6 @@
         <a class="navbar-brand brand-logo-mini" href="index.html">PSTN</a>
     </div>
     <div class="navbar-menu-wrapper d-flex align-items-center">
-        <ul class="navbar-nav">
-            <li class="nav-item font-weight-semibold d-none d-lg-block"><span class="mdi mdi-phone"></span> +91 999 512 1112</li>
-        </ul>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item dropdown d-none d-xl-inline-block user-dropdown">
                 <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown" aria-expanded="false">

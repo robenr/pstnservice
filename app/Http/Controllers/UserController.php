@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+use App\Http\Requests\StoreUserRequest;
 use App\User;
 
 class UserController extends Controller
@@ -39,7 +40,7 @@ class UserController extends Controller
         return view('user.create');
     }
 
-    public function store(Request $request)
+    public function store(StoreUserRequest $request)
     {
         $data = $request->all();
         $data["password"] = Hash::make($data['password']);

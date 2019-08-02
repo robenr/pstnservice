@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use Intervention\Image\Facades\Image;
 use Illuminate\Support\Facades\DB;
+use App\Http\Requests\StoreBlogRequest;
 use App\Blog;
 
 class BlogController extends Controller
@@ -27,7 +28,7 @@ class BlogController extends Controller
         return view('blog.create');
     }
 
-    public function store(Request $request)
+    public function store(StoreBlogRequest $request)
     {
         $this->middleware('auth');
         $path = $request->file->store('blog');
