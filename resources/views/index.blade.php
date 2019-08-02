@@ -41,7 +41,8 @@
                     </div>
                 </div>
                 @endforeach
-                <a class="d-block mt-5" href="{{url('portal/billing')}}">Show all</a>
+                @if(Auth::user()->user_type == 'A')<a class="d-block mt-5" href="{{url('portal/billing/all')}}">Show all</a>@endIf
+                @if(Auth::user()->user_type == 'U')<a class="d-block mt-5" href="{{url('portal/billing')}}">Show all</a>@endIf
             </div>
         </div>
     </div>
@@ -57,7 +58,8 @@
                     </div>
                 </div>
                 @endforeach
-                <a class="d-block mt-5" href="{{url('portal/engineering')}}">Show all</a>
+                @if(Auth::user()->user_type == 'A')<a class="d-block mt-5" href="{{url('portal/engineering/all')}}">Show all</a>@endIf
+                @if(Auth::user()->user_type == 'U')<a class="d-block mt-5" href="{{url('portal/engineering')}}">Show all</a>@endIf
             </div>
         </div>
     </div>
