@@ -15,13 +15,13 @@
         <div class="card">
             <div class="card-body">
                 <div class="d-flex justify-content-between pb-3">
-                    <h4 class="card-title mb-0">TASKS ASSIGNED</h4>
+                    <h4 class="card-title mb-0">TASKS CREATED</h4>
                 </div>
                 <ul class="timeline">
                     @foreach($tickets as $key => $ticket)
                     <li class="timeline-item">
-                        <p class="timeline-content"><a href="{{ $ticket['url'] }}" target="_blank">{{ $ticket['name'] }}</p>
-                        <p class="event-time">{{ date('d/m/Y', strtotime($ticket['dateLastActivity'])) }}</p>
+                        <p class="timeline-content"><a href="{{ url('portal/ticket/edit/'.$ticket['id']) }}" target="_blank">{{ $ticket['name'] }}</p>
+                        <p class="event-time">{{ date('d/m/Y', strtotime($ticket['created_at'])) }}</p>
                     </li>
                     @endforeach
                 </ul>
