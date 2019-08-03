@@ -43,6 +43,7 @@ class TicketController extends Controller
 
     public function store(StoreTicketRequest $request)
     {
+        $store = $request->all();
         $card = \Trello::manager()->getCard();
         $card
             ->setBoardId('CZyBrFfl')
@@ -51,7 +52,7 @@ class TicketController extends Controller
             ->setDescription($request->description)
             ->save();
 
-        $data = array( "created_by" => $request->user()->id, "trello_id" => $card->getId() );
+        $data = array( "created_by" => $request->user()->id, "trello_id" => $card->getId(), "name" => $store['title'], "trello_url" => $card->getShortUrl() );
         $ticket = Ticket::create($data);
 
         return redirect('portal/ticket');
@@ -95,7 +96,7 @@ class TicketController extends Controller
             ->setName($store['title'])
             ->setDescription($store['description'])
             ->save();
-        $data = array( "created_by" => $request->user()->id, "trello_id" => $card->getId(), "name" => $store['title'], "trello_url" => $ticket['trello_url'] );
+        $data = array( "created_by" => $request->user()->id, "trello_id" => $card->getId(), "name" => $store['title'], "trello_url" => $card->getShortUrl() );
         $ticket->update($data);
         return redirect('portal/ticket');
     }
