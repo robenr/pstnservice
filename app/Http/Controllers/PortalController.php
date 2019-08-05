@@ -27,18 +27,22 @@ class PortalController extends Controller
      */
     public function index(Request $request)
     {
-        $tickets = Ticket::where([
-                                    ['created_by', '=', $request->user()->id]
-                                ])->orderby("created_at", "desc")->paginate(5);
+        if($request->user()->user_type == 'U') {
+            $tickets = Ticket::where([
+                                        ['created_by', '=', $request->user()->id]
+                                    ])->orderby("created_at", "desc")->paginate(5);
+        } else {
+            $tickets = Ticket::orderby("created_at", "desc")->paginate(5);
+        }
         
         $billings = FileManager::where([
                                     ['location', '=', 'billing'],
                                     ['uploaded_by', '=', $request->user()->id]
-                                    ])->paginate(5);
+                                    ])->orderby("created_at", "desc")->paginate(5);
         $engineerings = FileManager::where([
                                     ['location', '=', 'engineering'],
                                     ['uploaded_by', '=', $request->user()->id]
-                                    ])->paginate(5);
+                                    ])->orderby("created_at", "desc")->paginate(5);
 
         return view('index', ['tickets' => $tickets, 'billings' => $billings, 'engineerings' => $engineerings]);
     }

@@ -5,7 +5,7 @@
 <div class="row page-title-header">
     <div class="col-12">
         <div class="page-header">
-            <h4 class="page-title">{{ $ticket['name'] }}</h4>
+            <h4 class="page-title">{{ $title }}</h4>
         </div>
     </div>
     <div class="col-6 grid-margin">
@@ -19,7 +19,12 @@
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Title</label>
                                 <div class="col-sm-9">
-                                    <input type="text" name="title" class="form-control"  value="{{ $ticket['name'] }}" />
+                                    <input type="text" name="title" class="form-control @error('title') is-invalid @enderror" value="{{ $title }}" />
+                                    @error('title')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                    @enderror
                                 </div>
                             </div>
                         </div>
@@ -29,7 +34,12 @@
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Description</label>
                                 <div class="col-sm-9">
-                                    <textarea name="description" class="form-control">{{ $ticket['desc'] }}</textarea>
+                                    <textarea name="description" class="form-control @error('title') is-invalid @enderror">{{ $description }}</textarea>
+                                    @error('description')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                    @enderror
                                 </div>
                             </div>
                         </div>

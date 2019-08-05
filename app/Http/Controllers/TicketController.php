@@ -85,7 +85,9 @@ class TicketController extends Controller
         $content =$body->getContents();
         $ticket = json_decode($content,TRUE);
         //dd($ticket);exit;
-        return view('ticket.edit', ['ticket' => $ticket]);
+        $title = $ticket['name'];
+        $description = $ticket['desc'];
+        return view('ticket.edit', ['title' => $title, 'description' => $description]);
     }
 
     public function edit(StoreTicketRequest $request, Ticket $ticket)
