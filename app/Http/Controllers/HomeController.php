@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Blog;
+use App\Http\Requests\ContactUsRequest;
+use App\Mail\ContactUs;
+use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
 {
@@ -34,6 +37,13 @@ class HomeController extends Controller
     public function contactus()
     {
         return view('website.contactus');
+    }
+
+    public function submitcontactus(ContactUsRequest $request)
+    {
+        $user = $request->all();
+        Mail::to("roben@evalogical.com")->send(new ContactUs($user));
+        return redirect('contactus');
     }
 
     public function Automation()

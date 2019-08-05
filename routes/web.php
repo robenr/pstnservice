@@ -70,6 +70,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/aboutus', 'HomeController@aboutus')->name('aboutus');
 Route::get('/services', 'HomeController@services')->name('services');
 Route::get('/contactus', 'HomeController@contactus')->name('contactus');
+Route::post('/contactus', 'HomeController@submitcontactus')->name('contactussubmit');
 Route::get('/Automation', 'HomeController@Automation')->name('Automation');
 Route::get('/CloudServices', 'HomeController@CloudServices')->name('CloudServices');
 Route::get('/CyberSecurity', 'HomeController@CyberSecurity')->name('CyberSecurity');
