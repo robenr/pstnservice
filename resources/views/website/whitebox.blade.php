@@ -36,8 +36,8 @@
 
     <div class="row featurette pt-5 pb-5">
         <div class="col-md-6 anime" data-wow-duration="0.7s" data-wow-delay="0.2s">
-            <p class="para001">Our data center design consulting service includes detailed analysis of infrastructure requirement, hardware selection, proof of concept, implementation and complete project management. We negotiate with the carriers on clients' behalf. Data center consolidation and network optimisation service include infrastructure and service migration.</p>
-            <p class="para001">We provide a wide range of solutions from Spine/Leaf data center design to full scale MPLS and/or segment routing based enterprise WAN network. Our solutions are tailored to existing culture and future requirement. We partner with most of the large network vendors like Cisco, Juniper, and Cumulus. We leave the vendor selection to clients as we don’t favour anyone in particular. If you cannot figure out, we pitch in to help. We help you to select the best network vendor, considering your preferences and requirements.</p>
+            <p class="para001">Whitebox internet, the future of networking, is safe in our hands. PSTN master in making internet designs and solutions suitable according to every client requirement. We do this after a deep analysis about the client needs and by giving utmost care and attentiveness to the existing environment.</p>
+            <p class="para001">We provide a full infrastructure solution which includes hardware like Aarcus, Versa and/or Cumulus based Quanta/Acton, all after measuring and analysing the demands and necessities of the client network.</p>
         </div>
         <div class="col-md-6 anime" data-wow-duration="1s" data-wow-delay="0.2s">
             <img class="featurette-image img-fluid mx-auto brd_r40" src="/images/whitebox.jpg">
