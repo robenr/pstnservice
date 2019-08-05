@@ -40,6 +40,7 @@ $(document).ready(function () {
     });
 
     jQuery('.menu-link').click(function () {
+        var menulink =jQuery('.menu-link');
         menulink.toggleClass('active');
         $('#navbarResponsive').toggleClass('show');
         return false;
