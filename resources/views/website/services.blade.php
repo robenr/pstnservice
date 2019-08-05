@@ -122,7 +122,7 @@
                     <div class="card-body">
                         <img src="/images/services/whitebox.svg" width="70px">
                         <h4 class="card-title">White Box Internet/Generic Enterprise Network</h4>
-                        <p class="card-text">Our Internet design and solutions are based on detailed analysis of client requirements and due-diligence phase discovery of existing environment. </p>
+                        <p class="card-text">Whitebox internet, the future of networking, is safe in our hands. PSTN master in making internet designs and solutions suitable according to every client requirement. </p>
                     </div>
                     <div class="card-footer">
                         <a href="Whitebox" class="btn btn-primary btn_cstm">See More</a>
