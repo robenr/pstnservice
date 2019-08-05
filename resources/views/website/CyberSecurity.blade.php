@@ -60,7 +60,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/fortnt.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Fortinet</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+                        <p class="card-text">Design and deployment consulting of full security suit.</p>
                     </div>
                     <!--  <div class="card-footer">
                             <a href="#" class="btn btn-primary btn_cstm">See More</a>
@@ -73,7 +73,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/paloalt.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">PaloAlto</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+                        <p class="card-text">Design and deployment consulting of full security suit.</p>
                     </div>
                 </div>
             </div>
@@ -93,7 +93,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/quadium.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Qadium</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+                        <p class="card-text">Comprehensive Penetration testing.</p>
                     </div>
                 </div>
             </div>
