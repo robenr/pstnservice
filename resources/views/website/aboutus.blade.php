@@ -113,7 +113,7 @@
                     <div class="card-body">
                         <img src="/images/services/server.svg" width="70px">
                         <h4 class="card-title">SDWAN</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque. adipisicing elit. Sapiente esse necessitatibus neque lrem ipsum.</p>
+                        <p class="card-text">Using SD-WAN in your network improves your bandwidth, optimize traffic and it improve network performance better than before.</p>
                     </div>
                     <div class="card-footer">
                         <a href="Sdwan" class="btn btn-primary btn_cstm">See More</a>

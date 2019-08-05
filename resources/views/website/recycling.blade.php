@@ -60,7 +60,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/infrastructre.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Infrastructure upgrades/support</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+                        <p class="card-text">If you are really looking for your Infrastructure upgrades or support, we here to help you and we ensure the secuirty and quality.</p>
                     </div>
                     <!--  <div class="card-footer">
                             <a href="#" class="btn btn-primary btn_cstm">See More</a>
@@ -73,7 +73,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/technicalre.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Technical Resources</h4>
-                        <p class="card-text">Offering technical resources throughout United States for infrastructure deployment.</p>
+                        <p class="card-text">We are Offering technical resources throughout United States for infrastructure deployment.</p>
                     </div>
                 </div>
             </div>
