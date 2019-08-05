@@ -202,39 +202,19 @@
     </div>
 
     <div class="row wow fadeInUp">
-
-        <div class="col-lg-4 col-md-6 mb-4 blogDsgn anime" data-wow-duration="0.5s" data-wow-delay="0.2s">
+        
+        @foreach($blogs as $key => $blog)
+        <div class="col-lg-4 col-md-6 mb-4 blogDsgn">
             <div class="card">
-                <img class="card-img-top" src="/images/blg1.jpg" alt="">
+                <img class="card-img-top" src="{{ asset('images/blogs/thumbnail/'.$blog['featured_image']) }}" alt="">
                 <div class="card-body">
-                    <small>12/05/2019</small>
-                    <h4 class="card-title">Lorem ipsum dolor sit..</h4>
-                    <a href="#" class="btn btn-primary see_ghst">See More</a>
+                    <small>{{ date('d/m/Y', strtotime($blog['created_at'])) }}</small>
+                    <h4 class="card-title">{{ $blog['blog_title'] }}</h4>
+                    <a href="{{ url('blog/'.$blog['id']) }}" class="btn btn-primary see_ghst">See More</a>
                 </div>
             </div>
         </div>
-
-        <div class="col-lg-4 col-md-6 mb-4 blogDsgn anime" data-wow-duration="0.6s" data-wow-delay="0.2s">
-            <div class="card">
-                <img class="card-img-top" src="/images/blg2.jpg" alt="">
-                <div class="card-body">
-                    <small>12/05/2019</small>
-                    <h4 class="card-title">Lorem ipsum dolor sit..</h4>
-                    <a href="#" class="btn btn-primary see_ghst">See More</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 mb-4 blogDsgn anime" data-wow-duration="0.7s" data-wow-delay="0.2s">
-            <div class="card">
-                <img class="card-img-top" src="/images/blg3.jpg" alt="">
-                <div class="card-body">
-                    <small>12/05/2019</small>
-                    <h4 class="card-title">Lorem ipsum dolor sit..</h4>
-                    <a href="#" class="btn btn-primary see_ghst">See More</a>
-                </div>
-            </div>
-        </div>
+        @endforeach       
 
     </div>
     <center class="pt-5 pb-5 anime" data-wow-duration="0.5s" data-wow-delay="0.2s"><a href="blog" class="btn btn-primary btn_cstm">Check More <i class="icomoon icon-arrow-right1"></i></a></center>

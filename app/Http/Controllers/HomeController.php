@@ -23,12 +23,12 @@ class HomeController extends Controller
 
     public function aboutus()
     {
-        return view('website.aboutus');
+        return view('website.aboutus', ['blogs' => Blog::orderBy('updated_at', 'desc')->paginate(9)]);
     }
 
     public function services()
     {
-        return view('website.services');
+        return view('website.services', ['blogs' => Blog::orderBy('updated_at', 'desc')->paginate(9)]);
     }
 
     public function contactus()
@@ -38,36 +38,36 @@ class HomeController extends Controller
 
     public function Automation()
     {
-        return view('website.Automation');
+        return view('website.Automation', ['blogs' => Blog::orderBy('updated_at', 'desc')->paginate(9)]);
     }
 
     public function CloudServices()
     {
-        return view('website.CloudServices');
+        return view('website.CloudServices', ['blogs' => Blog::orderBy('updated_at', 'desc')->paginate(9)]);
     }
 
     public function CyberSecurity()
     {
-        return view('website.CyberSecurity');
+        return view('website.CyberSecurity', ['blogs' => Blog::orderBy('updated_at', 'desc')->paginate(9)]);
     }
 
     public function networkdesign()
     {
-        return view('website.networkdesign');
+        return view('website.networkdesign', ['blogs' => Blog::orderBy('updated_at', 'desc')->paginate(9)]);
     }
 
     public function recycling()
     {
-        return view('website.recycling');
+        return view('website.recycling', ['blogs' => Blog::orderBy('updated_at', 'desc')->paginate(9)]);
     }
 
     public function sdwan()
     {
-        return view('website.sdwan');
+        return view('website.sdwan', ['blogs' => Blog::orderBy('updated_at', 'desc')->paginate(9)]);
     }
 
     public function whitebox()
     {
-        return view('website.whitebox');
+        return view('website.whitebox', ['blogs' => Blog::orderBy('updated_at', 'desc')->paginate(9)]);
     }
 }
