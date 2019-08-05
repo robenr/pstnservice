@@ -60,7 +60,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/versa.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Versa</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+                        <p class="card-text">Did you know versa has established the first open and software-based SDWAN ecosystem? Yes, they did and we uses it. Versa offers a wide range of platforms capable of accelerating large scale industry deployment. Versa makes networking simple and cost-efficient.</p>
                     </div>
                     <!--  <div class="card-footer">
                             <a href="#" class="btn btn-primary btn_cstm">See More</a>
@@ -73,7 +73,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/arrcus.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Aarcus</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+                        <p class="card-text">Aarcus advanced capabilities enable organizations to cost-effectively build massively scalable infrastructure across physical, virtual (VM and container), and cloud network environments while delivering superior performance, security, and deployment flexibility. </p>
                     </div>
                 </div>
             </div>
@@ -83,7 +83,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/cumlus.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Cumulus</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+                        <p class="card-text">Are you looking for speedy deployments? Cumulus is your answer. Efficient, open, modern and more is what Cumulus offers. PSTN is equipped with a strong team who can handle networking like masters. With promised security, flexible architecture and reduced cost, Cumulus guarantees fast IT delivery too.</p>
                     </div>
                 </div>
             </div>

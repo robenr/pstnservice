@@ -60,7 +60,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/aws.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">AWS</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+                        <p class="card-text">Full suite of AWS consulting service by Certified cloud architect.</p>
                     </div>
                     <!--  <div class="card-footer">
                             <a href="#" class="btn btn-primary btn_cstm">See More</a>
@@ -73,7 +73,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/azure.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Azure</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+                        <p class="card-text">Full suite of Azure consulting service by Certified cloud architect.</p>
                     </div>
                 </div>
             </div>

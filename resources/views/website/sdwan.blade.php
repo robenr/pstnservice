@@ -60,7 +60,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/fortnt.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Viptela</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+                        <p class="card-text">Cisco solution for SD-WAN. This controller based solution can seamlessly coexists along with router functionality out of your existing branch router. This is a controller based platform which uses industry proven IPsec based security to form overlay network. This technology is best used for performance based routing as well as SLA monitoring.</p>
                     </div>
                     <!--  <div class="card-footer">
                             <a href="#" class="btn btn-primary btn_cstm">See More</a>
@@ -73,7 +73,8 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/paloalt.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Cloudgenix</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+                        <p class="card-text">Unique design called AppFabric which can leverage any WAN environment including MPLS, Broadband, secured Internet or Cellular. AppFabric base solutions
+can seamlessly integrate with cloud provider and security provider as well as unified communication as a service (UcaaS) providers to fulfill branch office needs.</p>
                     </div>
                 </div>
             </div>
@@ -83,7 +84,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/cicsco.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Aerohives XR600P</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+                        <p class="card-text">This is a Router Based SD-WAN solution which has good balance of security and throughput requirement for small to mid-size branch office locations.</p>
                     </div>
                 </div>
             </div>
@@ -93,7 +94,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/quadium.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Comcast Active Core with SD-WAN</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+                        <p class="card-text">This is Comcast SD-WAN solution partnering with Versa Networks to provide complete and robust feature rich overlay infrastructure.</p>
                     </div>
                 </div>
             </div>
@@ -103,7 +104,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/hostFirewall.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Fat Pipe Symphony</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+                        <p class="card-text">US based product offering three licensed based solution depending upon the needs of branch office. SD-WAN basic, SD-WAN Advance and SD-WAN Pro are offered to fulfill needs of different branch size (small/medium/large).</p>
                     </div>
                 </div>
             </div>
@@ -113,7 +114,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/virtualFire.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Juniper Contrail</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+                        <p class="card-text">Junipers multi-clould controller based model to implement and manage traffic engineering, segment routing and overlay through single automated platform.</p>
                     </div>
                 </div>
             </div>
@@ -123,7 +124,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/virtualFire.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">SilverPeak Unity Edge Connect</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+                        <p class="card-text">One of the best product in the market, which provides WAN optimization, security, routing and telemetry as one composite solution. Its capability includes providing connectivity to cloud and SaaS providers directly and securely from branch office.</p>
                     </div>
                 </div>
             </div>

@@ -60,7 +60,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/cicsco.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Cisco</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+                        <p class="card-text">Cisco is one of the most updated multi-cloud data center. Data centers are now all about automation, cloud, software designed technologies and virtualisation. And cisco has it all. Cisco eliminates risks and guarantees high performance and user experiences.</p>
                     </div>
                     <!--  <div class="card-footer">
                             <a href="#" class="btn btn-primary btn_cstm">See More</a>
@@ -73,7 +73,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/juniper.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Juniper</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+                        <p class="card-text">Juniper makes networking simple and accessible. It offers high security and multicloud ready solutions. Being a leading solution in data center networking, Juniper is easy to handle and is secure to use. Juniper is economical with all the best benefits.</p>
                     </div>
                 </div>
             </div>
@@ -83,7 +83,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/cumlus.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Cumulus</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+                        <p class="card-text">Are you looking for speedy deployments? Cumulus is your answer. Efficient, open, modern and more is what Cumulus offers. PSTN is equipped with a strong team who can handle networking like masters. With promised security, flexible architecture and reduced cost, Cumulus guarantees fast IT delivery too.</p>
                     </div>
                 </div>
             </div>
