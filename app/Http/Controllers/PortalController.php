@@ -8,9 +8,6 @@ use GuzzleHttp\Client;
 use App\FileManager;
 use App\Ticket;
 
-use App\Mail\WelcomeMail;
-use Illuminate\Support\Facades\Mail;
-
 class PortalController extends Controller
 {
     /**
@@ -30,8 +27,6 @@ class PortalController extends Controller
      */
     public function index(Request $request)
     {
-        Mail::to($request->user()['email'])->send(new WelcomeMail($request->user()));
-
         if($request->user()->user_type == 'U') {
             $tickets = Ticket::where([
                                         ['created_by', '=', $request->user()->id]
