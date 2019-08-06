@@ -57,7 +57,7 @@
         <div class="row">
             <div class="col-lg-4 col-md-6 mb-4 anime" data-wow-duration="0.5s" data-wow-delay="0.2s">
                 <div class="card">
-                    <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/fortnt.jpg" alt=""></figure>
+                    <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/Viptela.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Viptela</h4>
                         <p class="card-text">Viptela's SDWAN solution is cost-effective, secure, and offers transportation independence. PSTN offers Viptela with its all benefits. Viptela is easy to deploy and is an open, software-based solution which makes it customer friendly too. Viptela is also quick and simple.</p>
@@ -70,7 +70,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4 anime" data-wow-duration="0.7s" data-wow-delay="0.2s">
                 <div class="card">
-                    <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/paloalt.jpg" alt=""></figure>
+                    <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/Cloudgenix.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Cloudgenix</h4>
                         <p class="card-text">Cloud-genix is an efficient SDWAN solution which gives you the luxury to use any WAN, any cloud, hassle-free. It promises automation and security over any other WAN solutions. With outstanding performance and agility to render, Cloudgenix is one of the best SDWAN solution in the current industry.</p>
@@ -80,7 +80,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4 anime" data-wow-duration="0.9s" data-wow-delay="0.2s">
                 <div class="card">
-                    <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/cicsco.jpg" alt=""></figure>
+                    <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/Aerohives.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Aerohives XR600P</h4>
                         <p class="card-text">According to the builders, Aerohives XR600P was build with an aim of providing the best SDWAN solution available in the market. Aerohives XR600P is secure and reliable with faster deployments and easy usage. It is also very economical and promises ultimate networking experience for every person irrespective of the location from where it is accessed.</p>
@@ -90,7 +90,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4 anime" data-wow-duration="0.9s" data-wow-delay="0.2s">
                 <div class="card">
-                    <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/quadium.jpg" alt=""></figure>
+                    <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/comcast.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Comcast Active Core with SD-WAN</h4>
                         <p class="card-text">Com-cast active core is the modern day solution for every WAN. Comcast active core has everything an SDWAN solution is looking for. Improved productivity with security in reduced cost is the guarantee provided by Comcast active core to its clients. It also works like a champ with cloud services.</p>
@@ -100,7 +100,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4 anime" data-wow-duration="0.9s" data-wow-delay="0.2s">
                 <div class="card">
-                    <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/hostFirewall.jpg" alt=""></figure>
+                    <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/fatpipe.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Fat Pipe Symphony</h4>
                         <p class="card-text">Fat-pipe offers a solution where one could centrally manage their WAN, manage brand office configuration and deploy appliance with zero touch installation. Fatpipe symphony is highly economical and beneficial for every company in many different ways. </p>
@@ -110,7 +110,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4 anime" data-wow-duration="0.9s" data-wow-delay="0.2s">
                 <div class="card">
-                    <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/virtualFire.jpg" alt=""></figure>
+                    <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/juniperNetwoks.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Juniper Contrail</h4>
                         <p class="card-text">This open cloud automation product produces virtual network with high scalability. Deployment of every cloud services like public, private, hybrid or multi is possible with Juniper Contrail. Contrail claims to be an intelligent networking solution with increased security and advanced Analytics. Juniper contrail being one of the best in industry can be the SDWAN solution you are looking for.</p>
@@ -120,7 +120,7 @@
 
             <div class="col-lg-4 col-md-6 mb-4 anime" data-wow-duration="0.9s" data-wow-delay="0.2s">
                 <div class="card">
-                    <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/virtualFire.jpg" alt=""></figure>
+                    <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/silverpeak.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">SilverPeak Unity Edge Connect</h4>
                         <p class="card-text">Unity edgeconnect, being a business driven SDWAN solution, focuses on business-first networking model. Edgeconnect delivers high consistency and performance. This fully automated solution is secure and adapts to network changes real quick, real time.</p>

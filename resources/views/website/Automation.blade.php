@@ -15,7 +15,7 @@
                             <div class="container">
                                 <div class="col-md-12 ContnSect">
                                     <h1 class="anime" data-wow-duration="0.7s" data-wow-delay="0.2s">Automation</h1>
-                                    <small class="intro anime" data-wow-duration="1s" data-wow-delay="0.2s">– How do you want your system to be automated? Full or partial?</small>
+                                    <small class="intro anime" data-wow-duration="1s" data-wow-delay="0.2s">How do you want your system to be automated? Full or partial?</small>
                                 </div>
                             </div>
                         </div>
