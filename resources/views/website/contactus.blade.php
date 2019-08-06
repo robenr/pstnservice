@@ -38,7 +38,7 @@
                     <div class="col-md-6 mb-3">
                         <!-- begin input -->
                         <label for="first_name">First Name</label>
-                        <input type="text" class="form-control @error('first_name') is-invalid @enderror" name="first_name" required>
+                        <input type="text" class="form-control @error('first_name') is-invalid @enderror" name="first_name" value="{{old('first_name')}}">
                         @error('first_name')
                         <span class="invalid-feedback" role="alert">
                             <strong>{{ $message }}</strong>
@@ -48,7 +48,7 @@
                     <div class="col-md-6 mb-3">
                         <!-- begin input -->
                         <label for="last_name">Last Name</label>
-                        <input type="text" class="form-control @error('last_name') is-invalid @enderror" name="last_name" required>
+                        <input type="text" class="form-control @error('last_name') is-invalid @enderror" name="last_name" value="{{old('last_name')}}">
                         @error('last_name')
                         <span class="invalid-feedback" role="alert">
                             <strong>{{ $message }}</strong>
@@ -61,7 +61,7 @@
                     <div class="col-md-6 mb-3">
                         <!-- begin input -->
                         <label for="email">Email</label>
-                        <input type="email" class="form-control @error('email') is-invalid @enderror" name="email" required>
+                        <input type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{old('email')}}">
                         @error('email')
                         <span class="invalid-feedback" role="alert">
                             <strong>{{ $message }}</strong>
@@ -71,7 +71,7 @@
                     <div class="col-md-6 mb-3">
                         <!-- begin input -->
                         <label for="phone">Phone Number</label>
-                        <input type="text" class="form-control @error('phone') is-invalid @enderror" name="phone" required>
+                        <input type="text" class="form-control @error('phone') is-invalid @enderror" name="phone" value="{{old('phone')}}">
                         @error('phone')
                         <span class="invalid-feedback" role="alert">
                             <strong>{{ $message }}</strong>
@@ -84,7 +84,7 @@
                     <div class="col-md-6 mb-3">
                         <!-- begin input -->
                         <label for="city">City</label>
-                        <input type="text" class="form-control @error('city') is-invalid @enderror" name="city" required>
+                        <input type="text" class="form-control @error('city') is-invalid @enderror" name="city" value="{{old('city')}}">
                         @error('city')
                         <span class="invalid-feedback" role="alert">
                             <strong>{{ $message }}</strong>
@@ -94,7 +94,7 @@
                     <div class="col-md-6 mb-3">
                         <!-- begin input -->
                         <label for="country">Country</label>
-                        <input type="text" class="form-control @error('country') is-invalid @enderror" name="country" required>
+                        <input type="text" class="form-control @error('country') is-invalid @enderror" name="country" value="{{old('country')}}">
                         @error('country')
                         <span class="invalid-feedback" role="alert">
                             <strong>{{ $message }}</strong>
