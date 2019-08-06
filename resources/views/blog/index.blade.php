@@ -16,12 +16,12 @@
     <div class="col-lg-12 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
-                <table class="table table-striped">
+                <table class="table table-striped table-responsive">
                     <thead>
                         <tr>
                             <th> Title </th>
-                            <th> Publish date </th>
-                            <th></th>
+                            <th width="20%"> Publish date </th>
+                            <th width="5%">Action</th>
                         </tr>
                     </thead>
                     <tbody>

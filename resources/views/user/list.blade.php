@@ -19,13 +19,13 @@
     <div class="col-lg-12 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
-                <table class="table">
+                <table class="table table-responsive">
                     <thead>
                         <tr>
-                            <th>Name</th>
-                            <th>Email</th>
-                            <th>Type</th>
-                            <th>Action</th>
+                            <th width="40%">Name</th>
+                            <th width="30%">Email</th>
+                            <th width="5%">Type</th>
+                            <th width="5%">Action</th>
                         </tr>
                     </thead>
                     <tbody>

@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Storage;
 use Intervention\Image\Facades\Image;
 use Illuminate\Support\Facades\DB;
 use App\Http\Requests\StoreBlogRequest;
+use App\Http\Requests\UpdateBlogRequest;
 use App\Blog;
 
 class BlogController extends Controller
@@ -38,7 +39,7 @@ class BlogController extends Controller
         return redirect('portal/blog');
     }
 
-    public function update(StoreBlogRequest $request, Blog $blog)
+    public function update(UpdateBlogRequest $request, Blog $blog)
     {
         $this->middleware('auth');
         $store = $request->all();
