@@ -22,7 +22,7 @@
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Full Name</label>
                                 <div class="col-sm-9">
-                                    <input type="text" class="form-control @error('name') is-invalid @enderror" name="name" tabindex="1" />
+                                    <input type="text" class="form-control @error('name') is-invalid @enderror" name="name" tabindex="1" value="{{old('name')}}" />
                                     @error('name')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -50,7 +50,7 @@
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Email</label>
                                 <div class="col-sm-9">
-                                    <input type="text" class="form-control @error('email') is-invalid @enderror" name="email" tabindex="2" />
+                                    <input type="text" class="form-control @error('email') is-invalid @enderror" name="email" tabindex="2" value="{{old('email')}}" />
                                     @error('email')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -74,10 +74,10 @@
                                 <label class="col-sm-3 col-form-label">User Type</label>
                                 <div class="col-sm-9">
                                     <div class="form-radio">
-                                        <label class="form-check-label"><input type="radio" class="form-check-input" name="user_type" value="A" tabindex="5" checked> Admin </label>
+                                        <label class="form-check-label"><input type="radio" class="form-check-input" name="user_type" value="A" tabindex="5"> Admin </label>
                                     </div>
                                     <div class="form-radio">
-                                        <label class="form-check-label"><input type="radio" class="form-check-input" name="user_type" tabindex="6" value="U"> User </label>
+                                        <label class="form-check-label"><input type="radio" class="form-check-input" name="user_type" tabindex="6" value="U" checked> User </label>
                                     </div>
                                 </div>
                             </div>
