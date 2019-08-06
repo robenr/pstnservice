@@ -43,7 +43,7 @@
                 </div>
             </form>
         </div>
-        <p class="footer-text text-center">copyright © 2018 Evalogical. All rights reserved.</p>
+        <p class="footer-text text-center">copyright &copy; 2019 PSTN Service. All rights reserved.</p>
     </div>
 </div>
 @endsection

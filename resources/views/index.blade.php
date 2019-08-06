@@ -15,7 +15,7 @@
         <div class="card">
             <div class="card-body">
                 <div class="d-flex justify-content-between pb-3">
-                    <h4 class="card-title mb-0">TASKS CREATED</h4>
+                    <h4 class="card-title mb-0">TICKETS CREATED</h4>
                 </div>
                 <ul class="timeline">
                     @foreach($tickets as $key => $ticket)
@@ -32,7 +32,7 @@
     <div class="col-md-4 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title mb-0">New Billing Files</h4>
+                <h4 class="card-title mb-0">NEW BILLING FILES</h4>
                 @foreach($billings as $key => $billing)
                 <div class="d-flex py-2 border-bottom">
                     <div class="wrapper">
@@ -49,7 +49,7 @@
     <div class="col-md-4 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title mb-0">New Engineering Files</h4>
+                <h4 class="card-title mb-0">NEW ENGINEERING FiILES</h4>
                 @foreach($engineerings as $key => $engineering)
                 <div class="d-flex py-2 border-bottom">
                     <div class="wrapper">

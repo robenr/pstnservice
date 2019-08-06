@@ -57,12 +57,7 @@
                         <div class="col-md-12">
                             <div class="form-group row justify-content-end">
                                 <div class="col-sm-9">
-                                    <input type="file" name="file" class="form-control @error('file') is-invalid @enderror">
-                                    @error('file')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                    @enderror
+                                    <input type="file" name="file" class="form-control">
                                 </div>
                             </div>
                         </div>

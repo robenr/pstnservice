@@ -19,7 +19,7 @@
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Title</label>
                                 <div class="col-sm-9">
-                                    <input type="text" name="title" class="form-control @error('title') is-invalid @enderror" />
+                                    <input type="text" name="title" class="form-control @error('title') is-invalid @enderror" value="{{old('title')}}" />
                                     @error('title')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
@@ -34,8 +34,7 @@
                             <div class="form-group row">
                                 <label class="col-sm-3 col-form-label">Description</label>
                                 <div class="col-sm-9">
-                                    <textarea name="description" class="form-control @error('description') is-invalid @enderror"></textarea>
-                                    @error('description')
+                                    <textarea name="description" class="form-control @error('description') is-invalid @enderror">{{old('description')}}</textarea>                                    @error('description')
                                     <span class="invalid-feedback" role="alert">
                                         <strong>{{ $message }}</strong>
                                     </span>

@@ -31,18 +31,27 @@ class PortalController extends Controller
             $tickets = Ticket::where([
                                         ['created_by', '=', $request->user()->id]
                                     ])->orderby("created_at", "desc")->paginate(5);
+        
+            $billings = FileManager::where([
+                                        ['location', '=', 'billing'],
+                                        ['uploaded_by', '=', $request->user()->id]
+                                        ])->orderby("created_at", "desc")->paginate(5);
+
+            $engineerings = FileManager::where([
+                                        ['location', '=', 'engineering'],
+                                        ['uploaded_by', '=', $request->user()->id]
+                                        ])->orderby("created_at", "desc")->paginate(5);
         } else {
             $tickets = Ticket::orderby("created_at", "desc")->paginate(5);
-        }
         
-        $billings = FileManager::where([
-                                    ['location', '=', 'billing'],
-                                    ['uploaded_by', '=', $request->user()->id]
-                                    ])->orderby("created_at", "desc")->paginate(5);
-        $engineerings = FileManager::where([
-                                    ['location', '=', 'engineering'],
-                                    ['uploaded_by', '=', $request->user()->id]
-                                    ])->orderby("created_at", "desc")->paginate(5);
+            $billings = FileManager::where([
+                                        ['location', '=', 'billing']
+                                        ])->orderby("created_at", "desc")->paginate(5);
+
+            $engineerings = FileManager::where([
+                                        ['location', '=', 'engineering']
+                                        ])->orderby("created_at", "desc")->paginate(5);
+        }
 
         return view('index', ['tickets' => $tickets, 'billings' => $billings, 'engineerings' => $engineerings]);
     }
