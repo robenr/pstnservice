@@ -14,8 +14,8 @@
                         <div class="sldrContent bannrCntnt">
                             <div class="container">
                                 <div class="col-md-12 ContnSect">
-                                    <h1 class="anime" data-wow-duration="0.7s" data-wow-delay="0.2s">Design the best with us</h1>
-                                    <small class="intro anime" data-wow-duration="1s" data-wow-delay="0.2s">We full fill your dream come true</small>
+                                    <h1 class="anime" data-wow-duration="0.7s" data-wow-delay="0.2s">Network Design</h1>
+                                    <small class="intro anime" data-wow-duration="1s" data-wow-delay="0.2s">Design the best with us</small>
                                 </div>
                             </div>
                         </div>
