@@ -33,14 +33,14 @@
     <div class="row">
 
         <!-- Post Content Column -->
-        <div class="col-lg-8 mauto blogEdit nm">
+        <div class="col-lg-8 mauto blogEdit">
 
             <!-- Title -->
             <h1 class="mt-5 mt-5">{{ $blog['blog_title'] }}</h1>
 
             <!-- Author -->
             <p class="lead">
-                <a class="float-md-right btn_cstm primary_color" href="{{ url('blog') }}"><i class="icomoon icon-arrow-left"></i> Back to blogs</a>
+                <a class="btn_cstm primary_color" href="{{ url('blog') }}"><i class="icomoon icon-arrow-left"></i> Back to blogs</a>
             </p>
 
             <hr>
