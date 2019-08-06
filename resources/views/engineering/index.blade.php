@@ -11,26 +11,26 @@
     <div class="col-7 grid-margin">
         <div class="card">
             <div class="card-body">
-                <table class="table">
+                <table class="table table-responsive">
                     <thead>
                         <tr>
-                            <th width="60%">Name</th>
+                            <th>Name</th>
                             @if(Auth::user()->user_type == 'A')<th width="20%">Created By</th>@endIf
                             <th width="20%">Type</th>
-                            <th width="20%">Last Modified</th>
+                            <th width="10%">Last Modified</th>
                         </tr>
                     </thead>
                     <tbody>
                         @foreach($files as $key => $file)
                         @php ($path = basename($file['filename']))
                         <tr>
-                            <td>
+                            <td class="wraptext">
                                 <i class="fa fa-file-word-o text-primary"></i>
                                 <a href="{{url('portal/engineering/download/'.$path)}}">{{ $file['title'] }}</a>
                             </td>
-                            @if(Auth::user()->user_type == 'A')<td>{{ $file['uploaded_user']['name'] }}</td>@endIf
-                            <td>{{ $file['mimetype'] }}</td>
-                            <td>{{ $file['updated_at'] }}</td>
+                            @if(Auth::user()->user_type == 'A')<td class="wraptext">{{ $file['uploaded_user']['name'] }}</td>@endIf
+                            <td class="wraptext">{{ $file['mimetype'] }}</td>
+                            <td class="wraptext">{{ $file['updated_at'] }}</td>
                         </tr>
                         @endforeach
                     </tbody>

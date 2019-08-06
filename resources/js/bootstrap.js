@@ -58,7 +58,17 @@ if (token) {
 window.chart = require('chart.js');
 
 $('.wysiwyg').summernote({
-    height: 360
+    height: 360,
+    toolbar: [
+        ['font', ['bold', 'italic', 'underline']],
+        ['para', ['paragraph']],
+        ['insert', ['picture', 'link']],
+        ['view', ['codeview']],
+    ]
 });
 
 $(".form-check label,.form-radio label").append('<i class="input-helper"></i>');
+
+$('[data-toggle="offcanvas"]').on("click", function () {
+    $('.sidebar-offcanvas').toggleClass('active')
+});
