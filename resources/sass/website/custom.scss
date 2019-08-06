@@ -983,4 +983,9 @@ footer {
         color: #000 !important;
         line-height: 1.6 !important;
     }
+    ul{
+        li, span, small, section{
+            font-family: Montserrat,Georgia,Times New Roman,serif !important;
+        }
+    }
 }

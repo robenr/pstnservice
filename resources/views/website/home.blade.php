@@ -32,7 +32,7 @@
                             <div class="container">
                                 <div class="col-md-12 ContnSect">
                                     <h1 class="animate">We Design and Upgrade your Infrastructure.</h1>
-                                    <p class="intro animate">Does your firm is under cyber attack? We work with the most advanced cyber security infrastructures like Fortinet, PalaAlto, Cisco Security and Qadium.</p>
+                                    <p class="intro animate">Does your firm hold a lot of IT which you would like to liquidate? Or recycle? PSTN Services make your entire process of IT equipment recycling or liquidation simple and easy for you.</p>
                                     <a href="{{url('Recycling')}}" class="btn btn-primary btn-large btn-sliderGhost">See more</a>
                                 </div>
                             </div>
@@ -50,8 +50,8 @@
                         <div class="sldrContent">
                             <div class="container">
                                 <div class="col-md-12 ContnSect">
-                                    <h1 class="animate">Worrying about Cyber Secuirty?</h1>
-                                    <p class="intro animate">Does your firm hold a lot of IT which you would like to liquidate? Or recycle? PSTN Services make your entire process of IT equipment recycling or liquidation simple and easy for you.</p>
+                                    <h1 class="animate">Worrying about Cyber Security?</h1>
+                                    <p class="intro animate">Does your firm is under cyber attack? We work with the most advanced cyber security infrastructures like Fortinet, PalaAlto, Cisco Security and Qadium.</p>
                                     <a href="{{url('CyberSecurity')}}" class="btn btn-primary btn-large btn-sliderGhost">See more</a>
                                 </div>
                             </div>
