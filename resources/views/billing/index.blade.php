@@ -8,7 +8,7 @@
             <h4 class="page-title">Billing</h4>
         </div>
     </div>
-    <div class="col-7 grid-margin">
+    <div class="col-md-7 col-sm-12 grid-margin">
         <div class="card">
             <div class="card-body">
                 <table class="table table-responsive">
@@ -38,7 +38,7 @@
             </div>
         </div>
     </div>
-    <div class="col-5 grid-margin">
+    <div class="col-md-5 col-sm-12 grid-margin">
         <div class="card">
             <div class="card-body">
                 <h4 class="card-title">Billing file upload</h4>
