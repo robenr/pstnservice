@@ -15,7 +15,7 @@
                             <div class="container">
                                 <div class="col-md-12 ContnSect">
                                     <h1 class="anime" data-wow-duration="0.7s" data-wow-delay="0.2s">SDWAN</h1>
-                                    <small class="intro anime" data-wow-duration="1s" data-wow-delay="0.2s">We full fill your dream come true</small>
+                                    <small class="intro anime" data-wow-duration="1s" data-wow-delay="0.2s">Cloudy solutions in minimal expense</small>
                                 </div>
                             </div>
                         </div>
@@ -36,8 +36,8 @@
 
     <div class="row featurette pt-5 pb-5">
         <div class="col-md-6 anime" data-wow-duration="0.7s" data-wow-delay="0.2s">
-            <p class="para001"><strong class="text_lrge primary_color">Cyber security</strong> is protecting anything and everything from cyber attacks. It is done using different techniques. The cyber attacks can lead to access of sensitive data, theft or damage of essential hardware or software and even lead to extortion of money.As the cybersecurity is becoming more and more important after every day, so are the cyber attackers. This is point where a good cybersecurity system comes into play. PSTN services have the next generation security platforms, always a step ahead of the cyber attackers. </p>
-            <p class="para001">We work with the most advanced cyber security infrastructures like Fortinet, PalaAlto, Cisco Security and Qadium. The security suit for each project is decided after a long process of discussion and analysis of requirements. Our customers are free to select any cyber security platform as per their wish too.</p>
+            <p class="para001"><strong class="text_lrge primary_color">SDWAN</strong> Software defined wide area networking, came into existence and importance as need for cloud-centric network solutions began striking.  SDWAN offers better business productivity, assures enhanced user experience, data privacy and minimal IT costs. SDWAN connects WAN connections such as broadband internet, 4G, LTE or MPLS. SDWAN, unlike the traditional router centric WAN architecture, is cloud-friendly. SDWAN is build in such a way that it supports application hosted in on-premise data centers, public or private clouds and Saas solutions such as Salesforce.com, Dropbox, Office365 etc. None of this comprises the high end performance SDWAN is capable of.</p>
+            <p class="para001">SDWAN has already won hearts and networks over with its exceptional features like visibility, scalability, performance and control. But most importantly, in addition to all the benefits guaranteed, SDWAN comes in cheaper rate. Aren't these enough reasons for companies counting on flexible, open, cloud-based WAN technologies choose SDWAN? If that isn’t enough, then comes the security aspect. SDWAN promises end to end encryption across the entire network of data. Authentication is blindly guaranteed for all devices and end points. We know almost all of the enterprises these days prefer to have a network security that amalgamate security, policy and orchestration. This is done by SDWAN. They does this by unifying secure connectivity.</p>
         </div>
         <div class="col-md-6 anime" data-wow-duration="1s" data-wow-delay="0.2s">
             <img class="featurette-image img-fluid mx-auto brd_r40" src="/images/cybersecuirty.jpg">
@@ -51,7 +51,7 @@
     <div class="container">
         <div class="text-center cmmn_ttle">
             <h1 class="mt-5 anime" data-wow-duration="0.5s" data-wow-delay="0.2s">Our Solutions</h1>
-            <small class="anime" data-wow-duration="0.7s" data-wow-delay="0.2s">Vitae natoque dictum etiam semper magnis</small>
+            <small class="anime" data-wow-duration="0.7s" data-wow-delay="0.2s">We Accelerate Your Ambitions</small>
         </div>
 
         <div class="row">
@@ -60,7 +60,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/fortnt.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Viptela</h4>
-                        <p class="card-text">Cisco solution for SD-WAN. This controller based solution can seamlessly coexists along with router functionality out of your existing branch router. This is a controller based platform which uses industry proven IPsec based security to form overlay network. This technology is best used for performance based routing as well as SLA monitoring.</p>
+                        <p class="card-text">Viptela's SDWAN solution is cost-effective, secure, and offers transportation independence. PSTN offers Viptela with its all benefits. Viptela is easy to deploy and is an open, software-based solution which makes it customer friendly too. Viptela is also quick and simple.</p>
                     </div>
                     <!--  <div class="card-footer">
                             <a href="#" class="btn btn-primary btn_cstm">See More</a>
@@ -73,8 +73,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/paloalt.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Cloudgenix</h4>
-                        <p class="card-text">Unique design called AppFabric which can leverage any WAN environment including MPLS, Broadband, secured Internet or Cellular. AppFabric base solutions
-can seamlessly integrate with cloud provider and security provider as well as unified communication as a service (UcaaS) providers to fulfill branch office needs.</p>
+                        <p class="card-text">Cloud-genix is an efficient SDWAN solution which gives you the luxury to use any WAN, any cloud, hassle-free. It promises automation and security over any other WAN solutions. With outstanding performance and agility to render, Cloudgenix is one of the best SDWAN solution in the current industry.</p>
                     </div>
                 </div>
             </div>
@@ -84,7 +83,7 @@ can seamlessly integrate with cloud provider and security provider as well as un
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/cicsco.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Aerohives XR600P</h4>
-                        <p class="card-text">This is a Router Based SD-WAN solution which has good balance of security and throughput requirement for small to mid-size branch office locations.</p>
+                        <p class="card-text">According to the builders, Aerohives XR600P was build with an aim of providing the best SDWAN solution available in the market. Aerohives XR600P is secure and reliable with faster deployments and easy usage. It is also very economical and promises ultimate networking experience for every person irrespective of the location from where it is accessed.</p>
                     </div>
                 </div>
             </div>
@@ -94,7 +93,7 @@ can seamlessly integrate with cloud provider and security provider as well as un
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/quadium.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Comcast Active Core with SD-WAN</h4>
-                        <p class="card-text">This is Comcast SD-WAN solution partnering with Versa Networks to provide complete and robust feature rich overlay infrastructure.</p>
+                        <p class="card-text">Com-cast active core is the modern day solution for every WAN. Comcast active core has everything an SDWAN solution is looking for. Improved productivity with security in reduced cost is the guarantee provided by Comcast active core to its clients. It also works like a champ with cloud services.</p>
                     </div>
                 </div>
             </div>
@@ -104,7 +103,7 @@ can seamlessly integrate with cloud provider and security provider as well as un
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/hostFirewall.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Fat Pipe Symphony</h4>
-                        <p class="card-text">US based product offering three licensed based solution depending upon the needs of branch office. SD-WAN basic, SD-WAN Advance and SD-WAN Pro are offered to fulfill needs of different branch size (small/medium/large).</p>
+                        <p class="card-text">Fat-pipe offers a solution where one could centrally manage their WAN, manage brand office configuration and deploy appliance with zero touch installation. Fatpipe symphony is highly economical and beneficial for every company in many different ways. </p>
                     </div>
                 </div>
             </div>
@@ -114,7 +113,7 @@ can seamlessly integrate with cloud provider and security provider as well as un
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/virtualFire.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Juniper Contrail</h4>
-                        <p class="card-text">Junipers multi-clould controller based model to implement and manage traffic engineering, segment routing and overlay through single automated platform.</p>
+                        <p class="card-text">This open cloud automation product produces virtual network with high scalability. Deployment of every cloud services like public, private, hybrid or multi is possible with Juniper Contrail. Contrail claims to be an intelligent networking solution with increased security and advanced Analytics. Juniper contrail being one of the best in industry can be the SDWAN solution you are looking for.</p>
                     </div>
                 </div>
             </div>
@@ -124,7 +123,7 @@ can seamlessly integrate with cloud provider and security provider as well as un
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/virtualFire.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">SilverPeak Unity Edge Connect</h4>
-                        <p class="card-text">One of the best product in the market, which provides WAN optimization, security, routing and telemetry as one composite solution. Its capability includes providing connectivity to cloud and SaaS providers directly and securely from branch office.</p>
+                        <p class="card-text">Unity edgeconnect, being a business driven SDWAN solution, focuses on business-first networking model. Edgeconnect delivers high consistency and performance. This fully automated solution is secure and adapts to network changes real quick, real time.</p>
                     </div>
                 </div>
             </div>
@@ -138,7 +137,7 @@ can seamlessly integrate with cloud provider and security provider as well as un
 
     <div class="text-center cmmn_ttle">
         <h1 class="mt-5 anime" data-wow-duration="0.5s" data-wow-delay="0.2s">Blog</h1>
-        <small class="anime" data-wow-duration="0.7s" data-wow-delay="0.2s">Vitae natoque dictum etiam semper magnis</small>
+        <small class="anime" data-wow-duration="0.7s" data-wow-delay="0.2s">Learn, Discover and share the power of information</small>
     </div>
 
     <div class="row wow fadeInUp">

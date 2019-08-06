@@ -115,9 +115,9 @@
                 <span class="Contt">Contact</span>
                 <div class="col-lg-12">
                     <div class="contctAddr">
-                        <p>DevNation<br> San Fransisco,<br> USA 725214</p>
+                        <p>350 fifth ave<br>  New York<br> USA 10018</p>
                         <p>+54 911 3593 9333</p>
-                        <p>agalante@gmail.com</p>
+                        <p>info@pstnservices.com</p>
                     </div>
                 </div>
             </div>

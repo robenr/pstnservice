@@ -15,7 +15,7 @@
                             <div class="container">
                                 <div class="col-md-12 ContnSect">
                                     <h1 class="anime" data-wow-duration="0.7s" data-wow-delay="0.2s">Cyber Security</h1>
-                                    <small class="intro anime" data-wow-duration="1s" data-wow-delay="0.2s">We full fill your dream come true</small>
+                                    <small class="intro anime" data-wow-duration="1s" data-wow-delay="0.2s">Guarantees protection from head to toe</small>
                                 </div>
                             </div>
                         </div>
@@ -51,7 +51,7 @@
     <div class="container">
         <div class="text-center cmmn_ttle">
             <h1 class="mt-5 anime" data-wow-duration="0.5s" data-wow-delay="0.2s">Our Solutions</h1>
-            <small class="anime" data-wow-duration="0.7s" data-wow-delay="0.2s">Vitae natoque dictum etiam semper magnis</small>
+            <small class="anime" data-wow-duration="0.7s" data-wow-delay="0.2s">We Accelerate Your Ambitions</small>
         </div>
 
         <div class="row">
@@ -60,7 +60,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/fortnt.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Fortinet</h4>
-                        <p class="card-text">Design and deployment consulting of full security suit.</p>
+                        <p class="card-text">Fortinet, in a word, is a next generation security solution. Fortinet has been effectively protecting the cyber world since the year 2000. High performance security for your IT infrastructure is their ultimate motto and promise. Fortinet has different versions of firewall platforms. Irrespective of the size of your project, they will safeguard you from all the threats.</p>
                     </div>
                     <!--  <div class="card-footer">
                             <a href="#" class="btn btn-primary btn_cstm">See More</a>
@@ -73,7 +73,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/paloalt.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">PaloAlto</h4>
-                        <p class="card-text">Design and deployment consulting of full security suit.</p>
+                        <p class="card-text">PaloAlto protects your cyber platforms with ease. Hassle-free, consistent solutions are their major attractions. Cloud, mobile, network and more is protected with PaloAlto. They are fully automated and works seamlessly.</p>
                     </div>
                 </div>
             </div>
@@ -83,7 +83,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/cicsco.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Cisco Security</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+                        <p class="card-text">Cisco Security guarantees to stop threats fast. They are highly powerful and assures automated threat detection. Cisco Security is exceptionally outstanding when it comes to encrypted threat handling. They make the process of remediation of threats facile.</p>
                     </div>
                 </div>
             </div>
@@ -93,7 +93,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/quadium.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Qadium</h4>
-                        <p class="card-text">Comprehensive Penetration testing.</p>
+                        <p class="card-text">Quadium holds the privilege to be pioneers in discovering customer’s assets real time. It has been rebranded into Expanse in no time with its first class performance in cybersecurity world. PSTN uses Quadium for securing your platform with clear knowledge of what to protect. By being up-to-date and accurate, Quadium can be the ultimate cyber security solution you are looking for.</p>
                     </div>
                 </div>
             </div>
@@ -103,7 +103,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/hostFirewall.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Host/Source based firewalling</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+                        <p class="card-text">In host/source based firewalling, both source host and destination source is protected. This is the best cybersecurity solution for network based programs. PSTN keeps you safe from untrusted parties that are on the same network through host/source based firewalling. They can act as an extra layer of protection for your network.</p>
                     </div>
                 </div>
             </div>
@@ -113,7 +113,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/virtualFire.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Virtual firewall platform and automation</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto.</p>
+                        <p class="card-text">With the increasing using of clouds, comes the increasing need for protection of clouds. Virtual firewall protects your private, public and hybrid clouds. Manual protection of networks are too outdated and tiresome. PSTN provides an automation based approach towards cybersecurity. This elevates accuracy and efficiency in protection.</p>
                     </div>
                 </div>
             </div>
@@ -127,7 +127,7 @@
 
     <div class="text-center cmmn_ttle">
         <h1 class="mt-5 anime" data-wow-duration="0.5s" data-wow-delay="0.2s">Blog</h1>
-        <small class="anime" data-wow-duration="0.7s" data-wow-delay="0.2s">Vitae natoque dictum etiam semper magnis</small>
+        <small class="anime" data-wow-duration="0.7s" data-wow-delay="0.2s">Learn, Discover and share the power of information</small>
     </div>
 
     <div class="row wow fadeInUp">

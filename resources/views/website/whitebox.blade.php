@@ -15,7 +15,7 @@
                             <div class="container">
                                 <div class="col-md-12 ContnSect">
                                     <h1 class="anime" data-wow-duration="0.7s" data-wow-delay="0.2s">White Box Internet/Generic Enterprise Network</h1>
-                                    <small class="intro anime" data-wow-duration="1s" data-wow-delay="0.2s">We full fill your dream come true</small>
+                                    <small class="intro anime" data-wow-duration="1s" data-wow-delay="0.2s">Measure up with maximum accuracy</small>
                                 </div>
                             </div>
                         </div>
@@ -51,7 +51,7 @@
     <div class="container">
         <div class="text-center cmmn_ttle">
             <h1 class="mt-5 anime" data-wow-duration="0.5s" data-wow-delay="0.2s">Our Solutions</h1>
-            <small class="anime" data-wow-duration="0.7s" data-wow-delay="0.2s">Vitae natoque dictum etiam semper magnis</small>
+            <small class="anime" data-wow-duration="0.7s" data-wow-delay="0.2s">We Accelerate Your Ambitions</small>
         </div>
 
         <div class="row">
@@ -99,7 +99,7 @@
 
     <div class="text-center cmmn_ttle">
         <h1 class="mt-5 anime" data-wow-duration="0.5s" data-wow-delay="0.2s">Blog</h1>
-        <small class="anime" data-wow-duration="0.7s" data-wow-delay="0.2s">Vitae natoque dictum etiam semper magnis</small>
+        <small class="anime" data-wow-duration="0.7s" data-wow-delay="0.2s">Learn, Discover and share the power of information</small>
     </div>
 
     <div class="row wow fadeInUp">

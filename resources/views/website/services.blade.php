@@ -14,7 +14,7 @@
                             <div class="container">
                                 <div class="col-md-12 ContnSect">
                                     <h1 class="animate">Services</h1>
-                                    <small class="intro animate">We full fill your dream come true</small>
+                                    <small class="intro animate">We deliver the growth in your business </small>
                                 </div>
                             </div>
                         </div>
@@ -33,7 +33,7 @@
         <div class="col-lg-12">
             <div class="text-center cmmn_ttle">
                 <h1 class="mt-5 anime" data-wow-duration="0.7s" data-wow-delay="0.2s">What We Offer</h1>
-                <small class=" anime" data-wow-duration="0.9s" data-wow-delay="0.2s">Vitae natoque dictum etiam semper magnis</small>
+                <small class=" anime" data-wow-duration="0.9s" data-wow-delay="0.2s">Looking for Networking Services? You are at right place.</small>
             </div>
         </div>
 

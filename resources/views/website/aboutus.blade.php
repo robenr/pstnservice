@@ -75,7 +75,7 @@
         <div class="col-lg-12">
             <div class="text-center cmmn_ttle">
                 <h1 class="mt-5 anime" data-wow-duration="0.7s" data-wow-delay="0.2s">What We Offer</h1>
-                <small class=" anime" data-wow-duration="0.9s" data-wow-delay="0.2s">Vitae natoque dictum etiam semper magnis</small>
+                <small class=" anime" data-wow-duration="0.9s" data-wow-delay="0.2s">Looking for Networking Services? You are at right place.</small>
             </div>
         </div>
 
@@ -198,7 +198,7 @@
 
     <div class="text-center cmmn_ttle">
         <h1 class="mt-5 anime" data-wow-duration="0.5s" data-wow-delay="0.2s">Blog</h1>
-        <small class="anime" data-wow-duration="0.7s" data-wow-delay="0.2s">Vitae natoque dictum etiam semper magnis</small>
+        <small class="anime" data-wow-duration="0.7s" data-wow-delay="0.2s">Learn, Discover and share the power of information</small>
     </div>
 
     <div class="row wow fadeInUp">
