@@ -33,7 +33,7 @@
     <div class="row">
 
         <!-- Post Content Column -->
-        <div class="col-lg-8 mauto">
+        <div class="col-lg-8 mauto blogEdit">
 
             <!-- Title -->
             <h1 class="mt-5 mt-5">{{ $blog['blog_title'] }}</h1>
