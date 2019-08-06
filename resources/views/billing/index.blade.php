@@ -17,7 +17,7 @@
                             <th>Name</th>
                             @if(Auth::user()->user_type == 'A')<th width="20%">Created By</th>@endIf
                             <th width="20%">Type</th>
-                            <th width="10%">Last Modified</th>
+                            <th width="15%">Last Modified</th>
                         </tr>
                     </thead>
                     <tbody>
