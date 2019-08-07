@@ -11,7 +11,8 @@
 |
 */
 
-Auth::routes();
+Auth::routes(['verify' => true]);
+
 Route::get('/logout', 'PortalController@logout');
 
 Route::get('/portal/unauthorized', function () {
@@ -19,16 +20,16 @@ Route::get('/portal/unauthorized', function () {
 });
 Route::get('/portal', 'PortalController@index');
 
-Route::get('/portal/ticket', 'TicketController@index');
-Route::get('/portal/ticket/create', 'TicketController@create');
-Route::post('/portal/ticket/create', 'TicketController@store');
-Route::get('/portal/ticket/edit/{ticket}', 'TicketController@show');
-Route::post('/portal/ticket/edit/{ticket}', 'TicketController@edit');
+Route::get('/portal/ticket', 'TicketController@index')->middleware('verified');
+Route::get('/portal/ticket/create', 'TicketController@create')->middleware('verified');
+Route::post('/portal/ticket/create', 'TicketController@store')->middleware('verified');
+Route::get('/portal/ticket/edit/{ticket}', 'TicketController@show')->middleware('verified');
+Route::post('/portal/ticket/edit/{ticket}', 'TicketController@edit')->middleware('verified');
 
-Route::get('/portal/engineering/download/{name}', 'EngineeringController@download');
-Route::get('/portal/billing/download/{name}', 'BillingController@download');
+Route::get('/portal/engineering/download/{name}', 'EngineeringController@download')->middleware('verified');
+Route::get('/portal/billing/download/{name}', 'BillingController@download')->middleware('verified');
 
-Route::group(['middleware' => 'App\Http\Middleware\AdminMiddleware'], function(){
+Route::group(['middleware' => ['App\Http\Middleware\AdminMiddleware', 'verified']], function(){
 	//Route::match(['get', 'post'], '/adminOnlyPage/', 'HomeController@admin');
 	Route::get('/portal/users', 'UserController@index');
 	Route::get('/portal/myprofile', 'UserController@myprofile');
@@ -54,7 +55,7 @@ Route::group(['middleware' => 'App\Http\Middleware\AdminMiddleware'], function()
 	Route::get('/portal/blog/delete/{blog}', 'BlogController@destroy');
 });
 
-Route::group(['middleware' => 'App\Http\Middleware\UserMiddleware'], function(){
+Route::group(['middleware' => ['App\Http\Middleware\UserMiddleware', 'verified']], function(){
 	//Route::match(['get', 'post'], '/adminOnlyPage/', 'HomeController@admin');
 	Route::get('/portal/myprofile', 'UserController@myprofile');
 
