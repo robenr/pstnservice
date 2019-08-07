@@ -24,9 +24,9 @@
                         @foreach($files as $key => $file)
                         @php ($path = basename($file['filename']))
                         <tr>
-                            <td class="wraptext">
+                            <td>
                                 <i class="fa fa-file-word-o text-primary"></i>
-                                <a href="{{url('portal/billing/download/'.$path)}}">{{ $file['title'] }}</a>
+                                <a href="{{url('portal/billing/download/'.$path)}}" class="wraptext">{{ $file['title'] }}</a>
                             </td>
                             @if(Auth::user()->user_type == 'A')<td class="wraptext">{{ $file['uploaded_user']['name'] }}</td>@endIf
                             <td class="wraptext">{{ $file['mimetype'] }}</td>

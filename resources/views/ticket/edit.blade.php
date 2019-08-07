@@ -8,7 +8,7 @@
             <h4 class="page-title">{{ $title }}</h4>
         </div>
     </div>
-    <div class="col-6 grid-margin">
+    <div class="col-lg-8 col-md-10 col-sm-12 grid-margin">
         <div class="card">
             <div class="card-body">
                 <h4 class="card-title">Update ticket</h4>
