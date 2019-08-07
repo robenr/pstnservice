@@ -11,7 +11,7 @@
     <div class="col-12 grid-margin">
         <div class="card">
             <div class="card-body">
-                <form class="form-sample" method="post" action="" enctype="multipart/form-data">
+                <form class="form-blog" method="post" action="" enctype="multipart/form-data">
                     @csrf
                     <div class="row">
                         <div class="col-md-12">
@@ -31,7 +31,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group row">
-                                <label class="col-sm-3 col-form-label">Description</label>
+                                <label class="col-sm-3 col-form-label">Content</label>
                                 <div class="col-sm-9">
                                     <textarea name="blog_content" class="wysiwyg form-control @error('blog_content') is-invalid @enderror">{{ $blog['blog_content'] }}</textarea>
                                     @error('blog_content')

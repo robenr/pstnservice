@@ -64,7 +64,18 @@ $('.wysiwyg').summernote({
         ['para', ['paragraph']],
         ['insert', ['picture', 'link']],
         ['view', ['codeview']],
-    ]
+    ],
+    callbacks: {
+        onBlur: function(e) {
+            if(
+                $(this).val() == '<p dir="auto"><br></p>' ||
+                $(this).val() == '<p><br></p>' ||
+                $(this).val() == '<br>'
+            ) {
+                $(this).val('');
+            }
+        } 
+    }
 });
 
 $(".form-check label,.form-radio label").append('<i class="input-helper"></i>');
