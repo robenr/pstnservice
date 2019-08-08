@@ -37,6 +37,9 @@
                     </tbody>
                 </table>
             </div>
+            <div class="card-footer">
+                {{ $tickets->links() }}
+            </div>
         </div>
     </div>
 </div>

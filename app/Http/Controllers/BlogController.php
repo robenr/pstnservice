@@ -20,7 +20,7 @@ class BlogController extends Controller
     public function index()
     {
         $this->middleware('auth');
-        return view('blog.index', ['blogs' => Blog::all()]);
+        return view('blog.index', ['blogs' => Blog::orderBy('created_at', 'desc')->paginate(10)]);
     }
 
     public function create()

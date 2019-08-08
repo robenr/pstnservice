@@ -5,7 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\Mail;
 use App\Http\Requests\StoreUserRequest;
+use App\Mail\WelcomeMail;
 use App\User;
 
 class UserController extends Controller
@@ -26,7 +28,7 @@ class UserController extends Controller
      */
     public function index()
     {
-        return view('user.list', ['users' => User::orderBy('name')->get()]);
+        return view('user.list', ['users' => User::orderBy('name')->paginate(10)]);
     }
 
     public function myprofile()
@@ -45,6 +47,7 @@ class UserController extends Controller
         $data = $request->all();
         $data["password"] = Hash::make($data['password']);
         $user = User::create($data);
+        Mail::to($data['email'])->send(new WelcomeMail($user));
         return redirect('portal/users');
     }
 

@@ -36,6 +36,9 @@
                     </tbody>
                 </table>
             </div>
+            <div class="card-footer">
+                {{ $files->links() }}
+            </div>
         </div>
     </div>
     <div class="col-md-5 col-sm-12 grid-margin">

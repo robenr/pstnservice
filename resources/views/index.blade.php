@@ -49,7 +49,7 @@
     <div class="col-md-4 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
-                <h4 class="card-title mb-0">NEW ENGINEERING FiILES</h4>
+                <h4 class="card-title mb-0">NEW ENGINEERING FILES</h4>
                 @foreach($engineerings as $key => $engineering)
                 <div class="d-flex py-2 border-bottom">
                     <div class="wrapper">

@@ -35,6 +35,9 @@
                     </tbody>
                 </table>
             </div>
+            <div class="card-footer">
+                {{ $blogs->links() }}
+            </div>
         </div>
     </div>
 </div>

@@ -27,9 +27,9 @@ class TicketController extends Controller
         if($request->user()->user_type == 'U') {
             $tickets = Ticket::where([
                                         ['created_by', '=', $request->user()->id]
-                                    ])->get();
+                                    ])->paginate(10);
         } else {
-            $tickets = Ticket::all();
+            $tickets = Ticket::paginate(10);
         }
 
         //dd($tickets);exit;
