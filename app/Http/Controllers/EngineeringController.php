@@ -29,14 +29,14 @@ class EngineeringController extends Controller
         $files = FileManager::where([
                                         ['location', '=', 'engineering'],
                                         ['uploaded_by', '=', $request->user()->id]
-                                    ])->paginate(10);
+                                    ])->orderby("created_at", "desc")->paginate(10);
         return view('engineering.index', ['files' => $files]);
     }
 
 
     public function all(Request $request)
     {
-        $files = FileManager::where('location', 'engineering')->paginate(10);
+        $files = FileManager::where('location', 'engineering')->orderby("created_at", "desc")->paginate(10);
         return view('engineering.index', ['files' => $files]);
     }
 

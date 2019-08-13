@@ -10,7 +10,7 @@
                 <div class="form-group">
                     <label class="label">Username</label>
                     <div class="input-group">
-                        <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus placeholder="username">
+                        <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" autocomplete="email" autofocus placeholder="username">
                         @error('email')
                         <span class="invalid-feedback" role="alert">
                             <strong>{{ $message }}</strong>
@@ -22,7 +22,7 @@
                 <div class="form-group">
                     <label class="label">Password</label>
                     <div class="input-group">
-                        <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="current-password" placeholder="password">
+                        <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" autocomplete="current-password" placeholder="password">
                         @error('password')
                         <span class="invalid-feedback" role="alert">
                             <strong>{{ $message }}</strong>
@@ -39,11 +39,11 @@
                     <div class="form-check-flat mt-0">
                         <a href="{{url('register')}}" class="text-black text-small">Create new account</a>
                     </div>
-                    <a href="{{url('password/reset')}}" class="text-small forgot-password text-black">Forgot Password</a>
+                    <a href="{{url('password/reset')}}" class="text-small forgot-password text-black">Forgot Password?</a>
                 </div>
             </form>
         </div>
-        <p class="footer-text text-center">copyright &copy; 2019 PSTN Service. All rights reserved.</p>
+        <p class="footer-text text-center">Copyright &copy; 2019 PSTN Service. All rights reserved.</p>
     </div>
 </div>
 @endsection

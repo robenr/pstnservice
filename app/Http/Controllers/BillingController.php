@@ -58,13 +58,13 @@ class BillingController extends Controller
         $files = FileManager::where([
                                     ['location', '=', 'billing'],
                                     ['uploaded_by', '=', $request->user()->id]
-                                    ])->paginate(10);
+                                    ])->orderby("created_at", "desc")->paginate(10);
         return view('billing.index', ['files' => $files]);
     }
 
     public function all(Request $request)
     {
-        $files = FileManager::where('location', 'billing')->paginate(10);
+        $files = FileManager::where('location', 'billing')->orderby("created_at", "desc")->paginate(10);
         return view('billing.index', ['files' => $files]);
     }
 
