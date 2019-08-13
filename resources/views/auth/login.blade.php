@@ -37,7 +37,7 @@
 
                 <div class="form-group d-flex justify-content-between">
                     <div class="form-check-flat mt-0">
-                        <a href="{{url('register')}}" class="text-black text-small">Create new account</a>
+                        <a href="{{url('register')}}" class="text-black text-small">Create New Account</a>
                     </div>
                     <a href="{{url('password/reset')}}" class="text-small forgot-password text-black">Forgot Password?</a>
                 </div>
