@@ -30,7 +30,7 @@
                             <td class="py-1">{{ $ticket['id'] }}</td>
                             <td>
                                 <a href="{{ url('portal/ticket/edit/'.$ticket['id']) }}" target="_blank">{{ $ticket['name'] }}</a>
-                                @if(Auth::user()->user_type == 'A')<a href="{{ $ticket['trello_url'] }}" target="_blank"><span class="mdi mdi-forward"></span></a>@endIf
+                                @if(Auth::user()->user_type == 'A')<a href="{{ $ticket['trello_url'] }}" target="_blank" title="View in trello"><span class="mdi mdi-forward"></span></a>@endIf
                             </td>                            
                         </tr>
                         @endforeach

@@ -21,10 +21,21 @@
 
         @if(Auth::user()->user_type == 'U')
         <li class="nav-item">
-            <a class="nav-link" href="{{url('portal/engineering')}}">
-                <i class="menu-icon typcn typcn-shopping-bag"></i>
+            <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+                <i class="menu-icon typcn typcn-coffee"></i>
                 <span class="menu-title">Engineering</span>
+                <i class="menu-arrow"></i>
             </a>
+            <div class="collapse" id="ui-basic">
+                <ul class="nav flex-column sub-menu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url('portal/engineering')}}">Files</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://trello.com/">Board</a>
+                    </li>
+                </ul>
+            </div>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="{{url('portal/billing')}}">
@@ -36,10 +47,21 @@
 
         @if(Auth::user()->user_type == 'A')
         <li class="nav-item">
-            <a class="nav-link" href="{{url('portal/engineering/all')}}">
-                <i class="menu-icon typcn typcn-shopping-bag"></i>
+            <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
+                <i class="menu-icon typcn typcn-coffee"></i>
                 <span class="menu-title">Engineering</span>
+                <i class="menu-arrow"></i>
             </a>
+            <div class="collapse" id="ui-basic">
+                <ul class="nav flex-column sub-menu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{url('portal/engineering/all')}}">Files</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" target="_blank" href="https://trello.com/">Board</a>
+                    </li>
+                </ul>
+            </div>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="{{url('portal/billing/all')}}">
@@ -60,7 +82,7 @@
             </a>
         </li>
         @endIf
-        
+
         <li class="nav-item">
             <a class="nav-link" href="{{url('portal/ticket')}}">
                 <i class="menu-icon typcn typcn-th-large-outline"></i>

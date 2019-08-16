@@ -37,7 +37,7 @@
     <div class="row featurette pt-5 pb-5">
         <div class="col-md-6 anime" data-wow-duration="0.7s" data-wow-delay="0.2s">
             <p class="para001">Let us face the fact. Any or every gadget has a life span. For majority of them, it might be from 3 to 4 years. But it is clearly uneconomical to simply throw them away after that. Now this is the point where IT liquidation comes into importance. IT equipment recycling/liquidation has many benefits starting from gaining space for your further operations to reducing costs associated with space and so on. </p>
-            <p class="para001">Does your firm hold a lot of IT which you would like to liquidate? Or recycle? PSTN Services make your entire process of IT equipment recycling or liquidation simple and easy for you. You can call it a hassle free job with our services. We liquidate a wide range of IT gadgets on a daily basis. Our expert team makes your disposal process safe and sound. Make the best out of crap that they are not crap anymore.</p>
+            <p class="para001">Does your firm hold a lot of IT which you would like to liquidate? Or recycle? PSTN Services make your entire process of IT equipment recycling or liquidation simple and easy for you. You can call it a hassle free job with our services. We liquidate a wide range of IT gadgets on a daily basis. Our expert team makes your disposal process safe and sound. Make the best out of scrap that they are not scrap anymore.</p>
         </div>
         <div class="col-md-6 anime" data-wow-duration="1s" data-wow-delay="0.2s">
             <img class="featurette-image img-fluid mx-auto brd_r40" src="/images/itRecycle.jpg">
