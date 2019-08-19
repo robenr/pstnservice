@@ -116,7 +116,7 @@
                 <div class="col-lg-12">
                     <div class="contctAddr">
                         <p>350 fifth ave<br>  New York<br> USA 10018</p>
-                        <p>+54 911 3593 9333</p>
+                        <p>+1 (516) 605-4330</p>
                         <p>info@pstnservices.com</p>
                     </div>
                 </div>

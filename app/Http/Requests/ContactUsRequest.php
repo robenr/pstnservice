@@ -24,12 +24,12 @@ class ContactUsRequest extends FormRequest
     public function rules()
     {
         return [
-            'first_name' => 'required|regex:/^[a-zA-Z]+$/u',
-            'last_name' => 'required|regex:/^[a-zA-Z]+$/u',
+            'first_name' => 'required|regex:/^[a-zA-Z ]+$/u',
+            'last_name' => 'required|regex:/^[a-zA-Z ]+$/u',
             'email' => 'email',
-            'phone' => 'required|numeric|size:10',
-            'city' => 'required|regex:/^[a-zA-Z]+$/u',
-            'country' => 'required|regex:/^[a-zA-Z]+$/u',
+            'phone' => 'required|numeric',
+            'city' => 'required|regex:/^[a-zA-Z ]+$/u',
+            'country' => 'required|regex:/^[a-zA-Z ]+$/u',
         ];
     }
 
