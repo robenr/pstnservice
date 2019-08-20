@@ -27,7 +27,7 @@ class ContactUsRequest extends FormRequest
             'first_name' => 'required|regex:/^[a-zA-Z ]+$/u',
             'last_name' => 'required|regex:/^[a-zA-Z ]+$/u',
             'email' => 'email',
-            'phone' => 'required|numeric',
+            'phone' => 'required|numeric|max:16',
             'city' => 'required|regex:/^[a-zA-Z ]+$/u',
             'country' => 'required|regex:/^[a-zA-Z ]+$/u',
         ];
