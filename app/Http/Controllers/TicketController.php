@@ -98,7 +98,7 @@ class TicketController extends Controller
             ->setName($store['title'])
             ->setDescription($store['description'])
             ->save();
-        $data = array( "created_by" => $request->user()->id, "trello_id" => $card->getId(), "name" => $store['title'], "trello_url" => $card->getShortUrl() );
+        $data = array( "trello_id" => $card->getId(), "name" => $store['title'], "trello_url" => $card->getShortUrl() );
         $ticket->update($data);
         return redirect('portal/ticket');
     }
