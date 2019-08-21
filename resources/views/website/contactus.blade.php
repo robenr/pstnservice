@@ -106,7 +106,7 @@
                     <div class="col-md-12 mb-3">
                         <!-- begin input -->
                         <label for="query">Your Valid queries</label>
-                        <textarea class="form-control" style="height:120px" name="query"></textarea>
+                        <textarea class="form-control" style="height:120px" name="query">{{old('query')}}</textarea>
                     </div> <!-- end of input -->
                 </div>
                 <div class="col-md-6"><button class="btn btn-primary btn_cstm mt-3" type="submit">Submit</button></div>
