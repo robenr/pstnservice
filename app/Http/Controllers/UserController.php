@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Mail;
-use Illuminate\Support\Facades\Session;
 use App\Http\Requests\StoreUserRequest;
 use App\Mail\WelcomeMail;
 use App\User;
@@ -48,7 +47,6 @@ class UserController extends Controller
         $data = $request->all();
         $data["password"] = Hash::make($data['password']);
         $user = User::create($data);
-        Session::put('registeredusername',$data['name']);
         $user->sendEmailVerificationNotification();
         Mail::to($data['email'])->send(new WelcomeMail($user));
         return redirect('portal/users');

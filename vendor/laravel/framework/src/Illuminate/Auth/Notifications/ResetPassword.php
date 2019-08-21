@@ -57,6 +57,7 @@ class ResetPassword extends Notification
         }
 
         return (new MailMessage)
+            ->greeting("Hello ". $notifiable->name)
             ->subject(Lang::getFromJson('Reset Password Notification'))
             ->line(Lang::getFromJson('You are receiving this email because we received a password reset request for your account.'))
             ->action(Lang::getFromJson('Reset Password'), url(config('app.url').route('password.reset', ['token' => $this->token, 'email' => $notifiable->getEmailForPasswordReset()], false)))
