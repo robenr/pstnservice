@@ -39,6 +39,7 @@ class ContactUs extends Mailable
                       'query' => $this->mailData['query'],
                   );
         return $this->view('emails.contactus')
+                    ->from($this->mailData['email'])
                     ->with([
                         'user' => $user,
                     ]);

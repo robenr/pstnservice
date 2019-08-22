@@ -94,7 +94,7 @@
                     <div class="col-md-6 mb-3">
                         <!-- begin input -->
                         <label for="country">Country</label>
-                        <select class="form-control @error('country') is-invalid @enderror" name="country" onchange="toggleStates(this.value)">
+                        <select class="form-control @error('country') is-invalid @enderror" name="country" id="countries" onchange="toggleStates(this.value)">
                             <option value="">Select a country</option>
                             @foreach ($countries as $key => $country)
                             <option value="{{ $country['name'] }}" {{ old('country') == $country['name'] ? 'selected="selected"' : '' }}>{{ $country['name'] }}</option>
@@ -162,16 +162,17 @@
             items: 1,
             smartSpeed: 450
         });
+        jQuery('#countries option[value="United States"]').insertBefore('#countries option[value="Afghanistan"]');
 
     });
 
     function toggleStates(state) {
         if(state == 'United States') {
-            $('#otherstates').hide().val('').prop('disabled', true);
-            $('#usstates').show().prop('disabled', false);
+            jQuery('#otherstates').hide().val('').prop('disabled', true);
+            jQuery('#usstates').show().prop('disabled', false);
         } else {
-            $('#usstates').hide().val('').prop('disabled', true);
-            $('#otherstates').show().val('').prop('disabled', false);
+            jQuery('#usstates').hide().val('').prop('disabled', true);
+            jQuery('#otherstates').show().val('').prop('disabled', false);
         }
     }
 
