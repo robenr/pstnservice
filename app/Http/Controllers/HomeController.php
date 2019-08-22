@@ -3,10 +3,12 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Blog;
-use App\Http\Requests\ContactUsRequest;
-use App\Mail\ContactUs;
 use Illuminate\Support\Facades\Mail;
+use App\Http\Requests\ContactUsRequest;
+use App\Blog;
+use App\Country;
+use App\State;
+use App\Mail\ContactUs;
 
 class HomeController extends Controller
 {
@@ -36,13 +38,13 @@ class HomeController extends Controller
 
     public function contactus()
     {
-        return view('website.contactus');
+        return view('website.contactus', ['countries' => Country::orderBy('name', 'asc')->get(), 'states' => State::orderBy('name', 'asc')->get()]);
     }
 
     public function submitcontactus(ContactUsRequest $request)
     {
         $user = $request->all();
-        Mail::to("testevauser@gmail.com")->send(new ContactUs($user));
+        Mail::from($user->email)->to("mr.roben@gmail.com")->send(new ContactUs($user));
         return redirect('contactus');
     }
 

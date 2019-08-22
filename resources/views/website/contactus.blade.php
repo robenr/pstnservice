@@ -94,7 +94,12 @@
                     <div class="col-md-6 mb-3">
                         <!-- begin input -->
                         <label for="country">Country</label>
-                        <input type="text" class="form-control @error('country') is-invalid @enderror" name="country" value="{{old('country')}}">
+                        <select class="form-control @error('country') is-invalid @enderror" name="country" onchange="toggleStates(this.value)">
+                            <option value="">Select a country</option>
+                            @foreach ($countries as $key => $country)
+                            <option value="{{ $country['name'] }}" {{ old('country') == $country['name'] ? 'selected="selected"' : '' }}>{{ $country['name'] }}</option>
+                            @endforeach
+                        </select>
                         @error('country')
                         <span class="invalid-feedback" role="alert">
                             <strong>{{ $message }}</strong>
@@ -102,6 +107,26 @@
                         @enderror
                     </div> <!-- end of input -->
                 </div>
+
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        <!-- begin input -->
+                        <label for="state">State</label>
+                        <input type="text" class="form-control @error('state') is-invalid @enderror" name="state" id="otherstates" value="{{old('state')}}" @if(old('country') =='United States') disabled="disabled" style="display: none" @endif>
+                        <select class="form-control @error('state') is-invalid @enderror" id="usstates" name="state" @if(old('country') !='United States') disabled="disabled" style="display: none" @endif>
+                            <option value="">Select a state</option>
+                            @foreach ($states as $key => $state)
+                            <option value="{{ $state['name'] }}" {{ old('state') == $state['name'] ? 'selected="selected"' : '' }}>{{ $state['name'] }}</option>
+                            @endforeach
+                        </select>
+                        @error('state')
+                        <span class="invalid-feedback" role="alert">
+                            <strong>{{ $message }}</strong>
+                        </span>
+                        @enderror
+                    </div> <!-- end of input -->
+                </div>
+
                 <div class="row">
                     <div class="col-md-12 mb-3">
                         <!-- begin input -->
@@ -139,6 +164,16 @@
         });
 
     });
+
+    function toggleStates(state) {
+        if(state == 'United States') {
+            $('#otherstates').hide().val('').prop('disabled', true);
+            $('#usstates').show().prop('disabled', false);
+        } else {
+            $('#usstates').hide().val('').prop('disabled', true);
+            $('#otherstates').show().val('').prop('disabled', false);
+        }
+    }
 
 </script>
 @stop

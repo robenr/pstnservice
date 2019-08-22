@@ -35,6 +35,7 @@ class ContactUs extends Mailable
                       'phone' => $this->mailData['phone'],
                       'city' => $this->mailData['city'],
                       'country' => $this->mailData['country'],
+                      'state' => $this->mailData['state'],
                       'query' => $this->mailData['query'],
                   );
         return $this->view('emails.contactus')

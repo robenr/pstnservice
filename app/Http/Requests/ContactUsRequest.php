@@ -30,6 +30,7 @@ class ContactUsRequest extends FormRequest
             'phone' => 'required|regex:/[0-9]{9}/|max:14',
             'city' => 'required|regex:/^[a-zA-Z ]+$/u',
             'country' => 'required|regex:/^[a-zA-Z ]+$/u',
+            'state' => 'required|regex:/^[a-zA-Z ]+$/u',
         ];
     }
 
@@ -42,11 +43,13 @@ class ContactUsRequest extends FormRequest
             'phone.required' => 'Please provide a phone.',
             'city.required' => 'Please provide a city.',
             'country.required' => 'Please provide a country.',
+            'state.required' => 'Please provide a state.',
             'first_name.regex' => 'Invalid first name.',
             'last_name.regex' => 'Invalid last name.',
             'phone.numeric' => 'Invalid phone.',
             'city.regex' => 'Invalid city.',
             'country.regex' => 'Invalid country.',
+            'state.regex' => 'Invalid state.',
         ];
     }
 }
