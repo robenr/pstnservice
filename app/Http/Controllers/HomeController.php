@@ -44,7 +44,7 @@ class HomeController extends Controller
     public function submitcontactus(ContactUsRequest $request)
     {
         $user = $request->all();
-        Mail::to("testevauser@gmail.com")->send(new ContactUs($user));
+        Mail::to("info@pstnservices.com")->send(new ContactUs($user));
         return redirect('contactus');
     }
 
