@@ -210,14 +210,15 @@
                     <div class="testimonial-author">
                         <img src="/images/avatars/user-04.jpg" alt="Author image">
                         <div class="author-info">
-                            Steve Jobs
-                            <span class="position">CEO, Apple.</span>
+                            Sohail Zafar
+                            <span class="position">President, NGTech LLC</span>
                         </div>
                     </div>
                     <p>
-                        This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                        nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                       "Amazing customer service skills"
+"This company takes the time to know what the issue is and help see the problem through to its resolution. They have amazing customer service skills and are wonderful to talk to during what is usually a stressful, technology non-functioning, time.
+
+Thank you PSTN Services for helping with my tech problems!"
                     </p>
 
                 </div>
@@ -226,14 +227,13 @@
                     <div class="testimonial-author">
                         <img src="/images/avatars/user-02.jpg" alt="Author image">
                         <div class="author-info">
-                            Steve Jobs
-                            <span class="position">CEO, Apple.</span>
+                            Nithin P John
+                            <span class="position">CIO, Evalogical</span>
                         </div>
                     </div>
                     <p>
-                        This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                        nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                        "Fantastic support of our mission critical ops"
+"Your entire team is awesome! Being a network consulting firm, we REALLY appreciate your fantastic support of our mission critical ops -- keeping our client data secure and our network running smoothly! "
                     </p>
 
                 </div>
@@ -243,14 +243,12 @@
                     <div class="testimonial-author">
                         <img src="/images/avatars/user-03.jpg" alt="Author image">
                         <div class="author-info">
-                            John Doe
-                            <span class="position">CEO, ABC Corp.</span>
+                            Haleel Abdul Hameed
+                            <span class="position">COO, Evalogical</span>
                         </div>
                     </div>
                     <p>
-                        This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                        nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                        "We finally found a company that is a team and that works with us toward the same goals. We ultimately decided to work with PSTN Services because they had a lot of good people we could work with, we had built a solid relationship, and their treatment of us from the beginning met or exceeded our expectations. They were genuine and real. We look forward to growing our relationship."
                     </p>
                 </div>
 
