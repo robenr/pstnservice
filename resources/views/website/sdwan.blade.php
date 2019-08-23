@@ -132,7 +132,7 @@
     </div>
 </section>
 
-<!-- blog container -->
+<!-- blog container 
 <div class="container pt-4">
 
     <div class="text-center cmmn_ttle">
@@ -157,7 +157,7 @@
 
     </div>
     <center class="pt-5 pb-5 anime" data-wow-duration="0.5s" data-wow-delay="0.2s"><a href="blog" class="btn btn-primary btn_cstm">Check More <i class="icomoon icon-arrow-right1"></i></a></center>
-</div><!-- blog end -->
+</div> blog end -->
 @stop
 
 @section('scripts')
