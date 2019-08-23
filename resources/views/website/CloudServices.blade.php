@@ -37,7 +37,7 @@
     <div class="row featurette pt-5 pb-5">
         <div class="col-md-6 anime" data-wow-duration="0.7s" data-wow-delay="0.2s">
             <p class="para001"><strong class="text_lrge primary_color">Cloud services</strong> is a broad word to start with. In simple terms, it can be said as any service involving the use of cloud computing. Cloud services are meant to make the access towards applications, resources and services super easy. They have several benefits like cost reduction, providing easy access of applications or services to crowd, improved performance, higher productivity and a lot.</p>
-            <p class="para001">PSTN brings you the best cloud services in the current industry. Amazon Web Services or AWS is a cloud computing platform from Amazon. This is the most on-demand cloud computing service with a friendly interface. Azure is the cloud computing service brought to light by Microsoft. PSTN has a full suit of both AWS and Azure with the top-notch cloud architects at your service.</p>
+            <p class="para001">PSTN brings you the best cloud services in the current industry. Amazon Web Services or AWS is a cloud computing platform from Amazon. This is the most on-demand cloud computing service with a friendly interface. Azure is the cloud computing service brought to light by Microsoft. PSTN has a full suite of both AWS and Azure with the top-notch cloud architects at your service.</p>
         </div>
         <div class="col-md-6 anime" data-wow-duration="1s" data-wow-delay="0.2s">
             <img class="featurette-image img-fluid mx-auto brd_r40" src="/images/cloudser.jpg">

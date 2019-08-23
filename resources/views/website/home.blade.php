@@ -264,7 +264,7 @@ $(document).ready(function() {
         items: 1,
         autoplay:true,
         autoplayTimeout:3000,
-        autoplayHoverPause:true,
+        autoplayHoverPause:false,
         smartSpeed: 450,
         loop: true
     });

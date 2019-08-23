@@ -60,7 +60,7 @@
                     <figure class="carWrapper"><img class="card-img-top" src="/images/inner_serv/infrastructre.jpg" alt=""></figure>
                     <div class="card-body">
                         <h4 class="card-title">Infrastructure upgrades/support</h4>
-                        <p class="card-text">If you are really looking for your Infrastructure upgrades or support, we here to help you and we ensure the secuirty and quality.</p>
+                        <p class="card-text">If you are really looking for your Infrastructure upgrades or support, we here to help you and we ensure the security and quality.</p>
                     </div>
                     <!--  <div class="card-footer">
                             <a href="#" class="btn btn-primary btn_cstm">See More</a>

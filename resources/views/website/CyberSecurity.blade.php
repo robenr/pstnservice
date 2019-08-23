@@ -37,7 +37,7 @@
     <div class="row featurette pt-5 pb-5">
         <div class="col-md-6 anime" data-wow-duration="0.7s" data-wow-delay="0.2s">
             <p class="para001"><strong class="text_lrge primary_color">Cyber security</strong> is protecting anything and everything from cyber attacks. It is done using different techniques. The cyber attacks can lead to access of sensitive data, theft or damage of essential hardware or software and even lead to extortion of money.As the cybersecurity is becoming more and more important after every day, so are the cyber attackers. This is point where a good cybersecurity system comes into play. PSTN services have the next generation security platforms, always a step ahead of the cyber attackers. </p>
-            <p class="para001">We work with the most advanced cyber security infrastructures like Fortinet, PalaAlto, Cisco Security and Qadium. The security suit for each project is decided after a long process of discussion and analysis of requirements. Our customers are free to select any cyber security platform as per their wish too.</p>
+            <p class="para001">We work with the most advanced cyber security infrastructures like Fortinet, PalaAlto, Cisco Security and Qadium. The security suite for each project is decided after a long process of discussion and analysis of requirements. Our customers are free to select any cyber security platform as per their wish too.</p>
         </div>
         <div class="col-md-6 anime" data-wow-duration="1s" data-wow-delay="0.2s">
             <img class="featurette-image img-fluid mx-auto brd_r40" src="/images/cybersecuirty.jpg">
