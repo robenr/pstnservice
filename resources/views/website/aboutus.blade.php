@@ -69,7 +69,7 @@
 
 </div> <!-- end of 2 section container -->
 
-<!-- Page Content services -->
+<!-- Page Content services 
 <section class="grey">
     <div class="container pt-5 mt-5">
         <div class="col-lg-12">
@@ -79,7 +79,7 @@
             </div>
         </div>
 
-        <!-- Page Features -->
+       
         <div class="row">
 
             <div class="col-lg-4 col-md-6 mb-4 anime" data-wow-duration="0.5s" data-wow-delay="0.2s">
@@ -160,12 +160,12 @@
             </div>
 
         </div>
-        <!-- /.row -->
+        
         <center class="pt-5 pb-5 anime" data-wow-duration="0.7s" data-wow-delay="0.2s"><a href="services" class="btn btn-primary btn_cstm">Check More <i class="icomoon icon-arrow-right1"></i></a></center>
 
     </div>
-    <!-- /.container -->
-</section> <!-- services -->
+   
+</section>  services -->
 
 <!-- tech partner -->
 <section class="techPartnr">
