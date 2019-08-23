@@ -572,7 +572,18 @@ p {
 
 footer {
     background-color: #0b1a29 !important;
-
+    position:relative;
+    .footer-bttm {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        color: #fff;
+        text-align: center;
+        .footr-rte{
+            font-size: 0.6rem;
+        }
+    }
     .frst_col {
         .LogoFooter {
             font-size: 2.2rem;
@@ -967,9 +978,9 @@ footer {
     }
 }
 
-.fadeInUp {
+/*.fadeInUp {
     @include fadeInUp();
-}
+}*/
 
 
 /* new changes*/
@@ -990,3 +1001,4 @@ footer {
         }
     }
 }
+
