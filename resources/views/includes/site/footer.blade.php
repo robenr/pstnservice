@@ -31,7 +31,7 @@
 
     <div class="footer-bttm">
         <div class="container">
-            <p class="footr-rte">Copyright © 2019 :: PSTN SERVICES INC | Powered by <a href="http://evalogical.com" target="_blank" a=""> Evalogical</a></p>
+            <p class="footr-rte">Copyright © {{ now()->year }} :: PSTN SERVICES INC | Powered by <a href="http://evalogical.com" target="_blank" a=""> Evalogical</a></p>
 
         </div>
     </div>

@@ -580,8 +580,14 @@ footer {
         bottom: 0;
         color: #fff;
         text-align: center;
+        background: #0f2338;
         .footr-rte{
             font-size: 0.6rem;
+            margin: 0;
+            padding: 12px 0px;
+            a{
+                color: #E91E63;
+            }
         }
     }
     .frst_col {
