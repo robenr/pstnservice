@@ -2,7 +2,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg fixed-top transparent">
         <div class="container">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="home">
                 <img src="/images/logoDark.svg" width="100px" class="logoNrml">
                 <img src="/images/logo.svg" width="100px" class="logoFxd">
             </a>
