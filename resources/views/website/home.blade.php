@@ -263,9 +263,10 @@ $(document).ready(function() {
     jQuery('#owlcarHome').owlCarousel({
         items: 1,
         autoplay:true,
-        autoplayTimeout:1000,
+        autoplayTimeout:3000,
         autoplayHoverPause:true,
-        smartSpeed: 450
+        smartSpeed: 450,
+        loop: true
     });
 
     jQuery('#ClntTestimonials').owlCarousel({
