@@ -215,7 +215,7 @@
                         </div>
                     </div>
                     <p>
-                       "Amazing customer service skills. This company takes the time to know what the issue is and help see the problem through to its resolution. They have amazing customer service skills and are wonderful to talk to during what is usually a stressful, technology non-functioning, time. We higly recoomend pstn services.
+                       "Amazing customer service skills. This company takes the time to know what the issue is and help see the problem through to its resolution. They have amazing customer service skills and are wonderful to talk to during what is usually a stressful, technology non-functioning, time. We highly recommend pstn services.
                     </p>
 
                 </div>
