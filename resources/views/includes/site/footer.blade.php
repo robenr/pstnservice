@@ -8,21 +8,21 @@
             <div class="col-lg-3 col-md-6 mt-5 foota_txt">
                 <h5>Services</h5>
                 <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="Networkdesign">Network Design</a></li>
-                    <li><a class="text-muted" href="CloudServices">Cloud Services</a></li>
-                    <li><a class="text-muted" href="Sdwan">SDWAN</a></li>
-                    <li><a class="text-muted" href="CyberSecurity">Cyber Security</a></li>
-                    <li><a class="text-muted" href="services">See More <i class="icomoon icon-arrow-right1"></i></a></li>
+                    <li><a class="text-muted" href="/Networkdesign">Network Design</a></li>
+                    <li><a class="text-muted" href="/CloudServices">Cloud Services</a></li>
+                    <li><a class="text-muted" href="/Sdwan">SDWAN</a></li>
+                    <li><a class="text-muted" href="/CyberSecurity">Cyber Security</a></li>
+                    <li><a class="text-muted" href="/services">See More <i class="icomoon icon-arrow-right1"></i></a></li>
                 </ul>
             </div>
             <div class="col-lg-3 col-md-6 mt-5 foota_txt">
                 <h5>Options</h5>
                 <ul class="list-unstyled text-small">
-                    <li><a class="text-muted" href="home">Home</a></li>
-                    <li><a class="text-muted" href="aboutus">About Us</a></li>
-                    <li><a class="text-muted" href="services">Services</a></li>
-                    <li><a class="text-muted" href="blog">Blog</a></li>
-                    <li><a class="text-muted" href="contactus">Contact</a></li>
+                    <li><a class="text-muted" href="/home">Home</a></li>
+                    <li><a class="text-muted" href="/aboutus">About Us</a></li>
+                    <li><a class="text-muted" href="/services">Services</a></li>
+                    <li><a class="text-muted" href="/blog">Blog</a></li>
+                    <li><a class="text-muted" href="/contactus">Contact</a></li>
                 </ul>
             </div>
 
